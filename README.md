@@ -2,11 +2,23 @@
 
 For <b>Hacking Agents Hackathon SF, Mar 1 2025</b>
 
-The goal of this AI agent is to provide a first layer of analysis and response to cyberthreats.  Network logs (in this case from honeypot servers) are pushed to an elastic search database.  There are event triggered rules in elastic search that send a notifier to the agent to evaluate situations, and if needed, to take action.  In the background, an unstructured ETL ingests new logs, and adds these to an AstraDB vector store.
+The goal of this AI agent is to provide a first layer of analysis and response to cyberthreats.  Network logs (in this case from honeypot servers) are pushed to an elastic search database.  There are event triggered rules in elastic search that send a notifier to the agent to evaluate situations, and if needed, to take action.  In the background, an Unstructured ETL ingests new logs, and adds these to an AstraDB vector store.
+
+Within the elasticsearch engine, there is a triggering rule to notify the AI agent -- which is coded using langflow -- and send it some incident logs.  The agent analyzes the logs in several ways:
+
+- Comparison with characteristics of previous activity using the vector store [not fully implemented]
+- Comparison with it's own incident history [not fully implemented]
+- Query to OpenAI for analysis and preparation of a runbook for incident response
+
+The agent then makes a dispatch, deciding one of three types (see logic below):
+
+
+🔴 Critical  -- immediate notificaiton and autoshutdown, and jira ticket
+🟠 High-Risk -- immediate notification, and jira ticket
+🟢 Suspicious -- jira ticket with info for later analysis
+
 
 ![Block Diagram](./diagram.png)
-
-Upon receiving the trigger
 
 
 ## General Screening rule for trigger
