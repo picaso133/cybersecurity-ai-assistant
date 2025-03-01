@@ -7,5 +7,10 @@ requires-python = ">=3.12"
 dependencies = [
     "elasticsearch>=8.17.1",
     "paramiko>=3.5.1",
+    "grip>=4.6.2",
+    "netmiko>=4.5.0",
+    "paramiko>=3.5.1",
     "pyyaml>=6.0.2",
+    "requests>=2.32.3",
+    "scapy>=2.6.1",
 ]
