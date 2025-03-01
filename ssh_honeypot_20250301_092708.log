@@ -1,0 +1,19 @@
+2025-03-01 09:27:08,437 - ssh-honeypot - INFO - Starting SSH honeypot
+2025-03-01 09:27:08,437 - ssh-honeypot - INFO - SSH Honeypot listening on port 2222
+2025-03-01 09:27:16,635 - ssh-honeypot - INFO - Connection from: 127.0.0.1:51796
+2025-03-01 09:27:16,635 - ssh-honeypot - ERROR - Failed to send log to Elasticsearch: Cloud ID is not properly formatted
+2025-03-01 09:27:16,706 - paramiko.transport - INFO - Connected (version 2.0, client OpenSSH_for_Windows_9.5)
+2025-03-01 09:27:17,507 - paramiko.transport - INFO - Auth rejected (none).
+2025-03-01 09:27:19,454 - ssh-honeypot - INFO - Authentication attempt: 127.0.0.1 - username:root
+2025-03-01 09:27:19,454 - ssh-honeypot - ERROR - Failed to send log to Elasticsearch: Cloud ID is not properly formatted
+2025-03-01 09:27:19,454 - paramiko.transport - INFO - Auth rejected (password).
+2025-03-01 09:27:20,588 - ssh-honeypot - INFO - Authentication attempt: 127.0.0.1 - username:test
+2025-03-01 09:27:20,588 - ssh-honeypot - ERROR - Failed to send log to Elasticsearch: Cloud ID is not properly formatted
+2025-03-01 09:27:20,588 - paramiko.transport - INFO - Auth rejected (password).
+2025-03-01 09:27:22,837 - ssh-honeypot - INFO - Authentication attempt: 127.0.0.1 - username:admin
+2025-03-01 09:27:22,837 - ssh-honeypot - ERROR - Failed to send log to Elasticsearch: Cloud ID is not properly formatted
+2025-03-01 09:27:22,837 - paramiko.transport - INFO - Auth rejected (password).
+2025-03-01 09:27:22,840 - paramiko.transport - ERROR - Socket exception: An existing connection was forcibly closed by the remote host (10054)
+2025-03-01 09:27:22,840 - ssh-honeypot - INFO - No channel from 127.0.0.1:51796
+2025-03-01 09:30:56,329 - ssh-honeypot - INFO - Received shutdown signal
+2025-03-01 09:30:56,330 - ssh-honeypot - INFO - SSH Honeypot shutting down
