@@ -6,5 +6,5 @@ ssh-keygen -R [localhost]:2222
 
 ## Run
 ```bash
-uv run .\honeypot\ssh\service.py
+uv run .\service.py
 ```

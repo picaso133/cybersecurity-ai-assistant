@@ -9,6 +9,7 @@ import os
 from elasticsearch import Elasticsearch
 from datetime import UTC
 import signal
+import json
 
 # Configure logging
 log_timestamp = datetime.datetime.now().strftime('%Y%m%d_%H%M%S')
@@ -23,8 +24,12 @@ print(f"Logging to: {log_filename}")
 logger = logging.getLogger("ssh-honeypot")
 
 # Elasticsearch configuration
-ES_CLOUD_ID = "***"
-ES_API_KEY = "***"
+
+# Load secrets from .secrets file
+with open('.secrets', 'r') as secrets_file:
+    secrets = json.load(secrets_file)
+    ES_CLOUD_ID = secrets['ES_CLOUD_ID']
+    ES_API_KEY = secrets['ES_API_KEY']
 ES_INDEX = "ssh-honeypot"
 
 

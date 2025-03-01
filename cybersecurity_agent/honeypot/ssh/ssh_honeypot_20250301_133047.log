@@ -1,0 +1,1135 @@
+2025-03-01 13:30:47,119 - ssh-honeypot - INFO - Starting SSH honeypot
+2025-03-01 13:30:47,119 - ssh-honeypot - INFO - SSH Honeypot listening on port 2222
+2025-03-01 13:42:28,515 - ssh-honeypot - INFO - Connection from: 127.0.0.1:56721
+2025-03-01 13:42:29,219 - elastic_transport.transport - INFO - POST https://b2e7e5b202d84e938f7e48f40dd02ef2.us-central1.gcp.cloud.es.io:443/ssh-honeypot/_doc [status:201 duration:0.686s]
+2025-03-01 13:42:29,220 - ssh-honeypot - INFO - Log sent to Elasticsearch
+2025-03-01 13:42:29,290 - paramiko.transport - INFO - Connected (version 2.0, client paramiko_3.5.1)
+2025-03-01 13:42:29,297 - paramiko.transport - INFO - Auth rejected (publickey).
+2025-03-01 13:42:29,299 - paramiko.transport - INFO - Auth rejected (publickey).
+2025-03-01 13:42:29,300 - ssh-honeypot - INFO - Authentication attempt: 127.0.0.1 - good_user:valid_pass
+2025-03-01 13:42:29,628 - elastic_transport.transport - INFO - POST https://b2e7e5b202d84e938f7e48f40dd02ef2.us-central1.gcp.cloud.es.io:443/ssh-honeypot/_doc [status:201 duration:0.318s]
+2025-03-01 13:42:29,628 - ssh-honeypot - INFO - Log sent to Elasticsearch
+2025-03-01 13:42:29,628 - paramiko.transport - INFO - Auth rejected (password).
+2025-03-01 13:42:29,631 - ssh-honeypot - INFO - No channel from 127.0.0.1:56721
+2025-03-01 13:42:39,453 - ssh-honeypot - INFO - Connection from: 127.0.0.1:56725
+2025-03-01 13:42:39,814 - elastic_transport.transport - INFO - POST https://b2e7e5b202d84e938f7e48f40dd02ef2.us-central1.gcp.cloud.es.io:443/ssh-honeypot/_doc [status:201 duration:0.344s]
+2025-03-01 13:42:39,814 - ssh-honeypot - INFO - Log sent to Elasticsearch
+2025-03-01 13:42:39,883 - paramiko.transport - INFO - Connected (version 2.0, client paramiko_3.5.1)
+2025-03-01 13:42:39,889 - paramiko.transport - INFO - Auth rejected (publickey).
+2025-03-01 13:42:39,890 - paramiko.transport - INFO - Auth rejected (publickey).
+2025-03-01 13:42:39,890 - ssh-honeypot - INFO - Authentication attempt: 127.0.0.1 - good_user:valid_pass
+2025-03-01 13:42:40,232 - elastic_transport.transport - INFO - POST https://b2e7e5b202d84e938f7e48f40dd02ef2.us-central1.gcp.cloud.es.io:443/ssh-honeypot/_doc [status:201 duration:0.333s]
+2025-03-01 13:42:40,232 - ssh-honeypot - INFO - Log sent to Elasticsearch
+2025-03-01 13:42:40,233 - paramiko.transport - INFO - Auth rejected (password).
+2025-03-01 13:42:40,234 - ssh-honeypot - INFO - No channel from 127.0.0.1:56725
+2025-03-01 13:44:09,401 - ssh-honeypot - INFO - Connection from: 127.0.0.1:56733
+2025-03-01 13:44:10,047 - elastic_transport.transport - INFO - POST https://b2e7e5b202d84e938f7e48f40dd02ef2.us-central1.gcp.cloud.es.io:443/ssh-honeypot/_doc [status:201 duration:0.629s]
+2025-03-01 13:44:10,047 - ssh-honeypot - INFO - Log sent to Elasticsearch
+2025-03-01 13:44:10,114 - paramiko.transport - INFO - Connected (version 2.0, client paramiko_3.5.1)
+2025-03-01 13:44:10,120 - paramiko.transport - INFO - Auth rejected (publickey).
+2025-03-01 13:44:10,121 - paramiko.transport - INFO - Auth rejected (publickey).
+2025-03-01 13:44:10,121 - ssh-honeypot - INFO - Authentication attempt: 127.0.0.1 - test_this_now:valid_pass
+2025-03-01 13:44:10,460 - elastic_transport.transport - INFO - POST https://b2e7e5b202d84e938f7e48f40dd02ef2.us-central1.gcp.cloud.es.io:443/ssh-honeypot/_doc [status:201 duration:0.330s]
+2025-03-01 13:44:10,461 - ssh-honeypot - INFO - Log sent to Elasticsearch
+2025-03-01 13:44:10,461 - paramiko.transport - INFO - Auth rejected (password).
+2025-03-01 13:44:10,462 - ssh-honeypot - INFO - No channel from 127.0.0.1:56733
+2025-03-01 13:47:39,538 - ssh-honeypot - INFO - Connection from: 127.0.0.1:56749
+2025-03-01 13:47:40,086 - elastic_transport.transport - INFO - POST https://b2e7e5b202d84e938f7e48f40dd02ef2.us-central1.gcp.cloud.es.io:443/ssh-honeypot/_doc [status:201 duration:0.529s]
+2025-03-01 13:47:40,086 - ssh-honeypot - INFO - Log sent to Elasticsearch
+2025-03-01 13:47:40,156 - paramiko.transport - INFO - Connected (version 2.0, client paramiko_3.5.1)
+2025-03-01 13:47:40,162 - paramiko.transport - INFO - Auth rejected (publickey).
+2025-03-01 13:47:40,164 - paramiko.transport - INFO - Auth rejected (publickey).
+2025-03-01 13:47:40,164 - ssh-honeypot - INFO - Authentication attempt: 127.0.0.1 - invalid_user:invalid_pass
+2025-03-01 13:47:40,504 - elastic_transport.transport - INFO - POST https://b2e7e5b202d84e938f7e48f40dd02ef2.us-central1.gcp.cloud.es.io:443/ssh-honeypot/_doc [status:201 duration:0.330s]
+2025-03-01 13:47:40,504 - ssh-honeypot - INFO - Log sent to Elasticsearch
+2025-03-01 13:47:40,504 - paramiko.transport - INFO - Auth rejected (password).
+2025-03-01 13:47:40,505 - ssh-honeypot - INFO - No channel from 127.0.0.1:56749
+2025-03-01 13:47:40,681 - ssh-honeypot - INFO - Connection from: 127.0.0.1:56752
+2025-03-01 13:47:41,033 - elastic_transport.transport - INFO - POST https://b2e7e5b202d84e938f7e48f40dd02ef2.us-central1.gcp.cloud.es.io:443/ssh-honeypot/_doc [status:201 duration:0.332s]
+2025-03-01 13:47:41,033 - ssh-honeypot - INFO - Log sent to Elasticsearch
+2025-03-01 13:47:41,103 - paramiko.transport - INFO - Connected (version 2.0, client paramiko_3.5.1)
+2025-03-01 13:47:41,109 - paramiko.transport - INFO - Auth rejected (publickey).
+2025-03-01 13:47:41,109 - paramiko.transport - INFO - Auth rejected (publickey).
+2025-03-01 13:47:41,109 - ssh-honeypot - INFO - Authentication attempt: 127.0.0.1 - invalid_user:invalid_pass
+2025-03-01 13:47:41,436 - elastic_transport.transport - INFO - POST https://b2e7e5b202d84e938f7e48f40dd02ef2.us-central1.gcp.cloud.es.io:443/ssh-honeypot/_doc [status:201 duration:0.317s]
+2025-03-01 13:47:41,437 - ssh-honeypot - INFO - Log sent to Elasticsearch
+2025-03-01 13:47:41,437 - paramiko.transport - INFO - Auth rejected (password).
+2025-03-01 13:47:41,438 - ssh-honeypot - INFO - No channel from 127.0.0.1:56752
+2025-03-01 13:47:41,587 - ssh-honeypot - INFO - Connection from: 127.0.0.1:56755
+2025-03-01 13:47:41,942 - elastic_transport.transport - INFO - POST https://b2e7e5b202d84e938f7e48f40dd02ef2.us-central1.gcp.cloud.es.io:443/ssh-honeypot/_doc [status:201 duration:0.333s]
+2025-03-01 13:47:41,943 - ssh-honeypot - INFO - Log sent to Elasticsearch
+2025-03-01 13:47:42,009 - paramiko.transport - INFO - Connected (version 2.0, client paramiko_3.5.1)
+2025-03-01 13:47:42,015 - paramiko.transport - INFO - Auth rejected (publickey).
+2025-03-01 13:47:42,016 - paramiko.transport - INFO - Auth rejected (publickey).
+2025-03-01 13:47:42,016 - ssh-honeypot - INFO - Authentication attempt: 127.0.0.1 - invalid_user:invalid_pass
+2025-03-01 13:47:42,340 - elastic_transport.transport - INFO - POST https://b2e7e5b202d84e938f7e48f40dd02ef2.us-central1.gcp.cloud.es.io:443/ssh-honeypot/_doc [status:201 duration:0.313s]
+2025-03-01 13:47:42,340 - ssh-honeypot - INFO - Log sent to Elasticsearch
+2025-03-01 13:47:42,340 - paramiko.transport - INFO - Auth rejected (password).
+2025-03-01 13:47:42,342 - ssh-honeypot - INFO - No channel from 127.0.0.1:56755
+2025-03-01 13:47:42,518 - ssh-honeypot - INFO - Connection from: 127.0.0.1:56758
+2025-03-01 13:47:42,869 - elastic_transport.transport - INFO - POST https://b2e7e5b202d84e938f7e48f40dd02ef2.us-central1.gcp.cloud.es.io:443/ssh-honeypot/_doc [status:201 duration:0.328s]
+2025-03-01 13:47:42,869 - ssh-honeypot - INFO - Log sent to Elasticsearch
+2025-03-01 13:47:42,939 - paramiko.transport - INFO - Connected (version 2.0, client paramiko_3.5.1)
+2025-03-01 13:47:42,946 - paramiko.transport - INFO - Auth rejected (publickey).
+2025-03-01 13:47:42,946 - paramiko.transport - INFO - Auth rejected (publickey).
+2025-03-01 13:47:42,947 - ssh-honeypot - INFO - Authentication attempt: 127.0.0.1 - invalid_user:invalid_pass
+2025-03-01 13:47:43,306 - elastic_transport.transport - INFO - POST https://b2e7e5b202d84e938f7e48f40dd02ef2.us-central1.gcp.cloud.es.io:443/ssh-honeypot/_doc [status:201 duration:0.350s]
+2025-03-01 13:47:43,307 - ssh-honeypot - INFO - Log sent to Elasticsearch
+2025-03-01 13:47:43,307 - paramiko.transport - INFO - Auth rejected (password).
+2025-03-01 13:47:43,309 - ssh-honeypot - INFO - No channel from 127.0.0.1:56758
+2025-03-01 13:47:43,447 - ssh-honeypot - INFO - Connection from: 127.0.0.1:56761
+2025-03-01 13:47:43,806 - elastic_transport.transport - INFO - POST https://b2e7e5b202d84e938f7e48f40dd02ef2.us-central1.gcp.cloud.es.io:443/ssh-honeypot/_doc [status:201 duration:0.337s]
+2025-03-01 13:47:43,807 - ssh-honeypot - INFO - Log sent to Elasticsearch
+2025-03-01 13:47:43,877 - paramiko.transport - INFO - Connected (version 2.0, client paramiko_3.5.1)
+2025-03-01 13:47:43,884 - paramiko.transport - INFO - Auth rejected (publickey).
+2025-03-01 13:47:43,885 - paramiko.transport - INFO - Auth rejected (publickey).
+2025-03-01 13:47:43,885 - ssh-honeypot - INFO - Authentication attempt: 127.0.0.1 - invalid_user:invalid_pass
+2025-03-01 13:47:44,219 - elastic_transport.transport - INFO - POST https://b2e7e5b202d84e938f7e48f40dd02ef2.us-central1.gcp.cloud.es.io:443/ssh-honeypot/_doc [status:201 duration:0.324s]
+2025-03-01 13:47:44,219 - ssh-honeypot - INFO - Log sent to Elasticsearch
+2025-03-01 13:47:44,219 - paramiko.transport - INFO - Auth rejected (password).
+2025-03-01 13:47:44,221 - ssh-honeypot - INFO - No channel from 127.0.0.1:56761
+2025-03-01 13:47:44,601 - ssh-honeypot - INFO - Connection from: 127.0.0.1:56764
+2025-03-01 13:47:44,954 - elastic_transport.transport - INFO - POST https://b2e7e5b202d84e938f7e48f40dd02ef2.us-central1.gcp.cloud.es.io:443/ssh-honeypot/_doc [status:201 duration:0.328s]
+2025-03-01 13:47:44,955 - ssh-honeypot - INFO - Log sent to Elasticsearch
+2025-03-01 13:47:45,026 - paramiko.transport - INFO - Connected (version 2.0, client paramiko_3.5.1)
+2025-03-01 13:47:45,032 - paramiko.transport - INFO - Auth rejected (publickey).
+2025-03-01 13:47:45,032 - paramiko.transport - INFO - Auth rejected (publickey).
+2025-03-01 13:47:45,033 - ssh-honeypot - INFO - Authentication attempt: 127.0.0.1 - invalid_user:invalid_pass
+2025-03-01 13:47:45,354 - elastic_transport.transport - INFO - POST https://b2e7e5b202d84e938f7e48f40dd02ef2.us-central1.gcp.cloud.es.io:443/ssh-honeypot/_doc [status:201 duration:0.312s]
+2025-03-01 13:47:45,355 - ssh-honeypot - INFO - Log sent to Elasticsearch
+2025-03-01 13:47:45,355 - paramiko.transport - INFO - Auth rejected (password).
+2025-03-01 13:47:45,357 - ssh-honeypot - INFO - No channel from 127.0.0.1:56764
+2025-03-01 13:47:45,676 - ssh-honeypot - INFO - Connection from: 127.0.0.1:56767
+2025-03-01 13:47:46,030 - elastic_transport.transport - INFO - POST https://b2e7e5b202d84e938f7e48f40dd02ef2.us-central1.gcp.cloud.es.io:443/ssh-honeypot/_doc [status:201 duration:0.332s]
+2025-03-01 13:47:46,031 - ssh-honeypot - INFO - Log sent to Elasticsearch
+2025-03-01 13:47:46,105 - paramiko.transport - INFO - Connected (version 2.0, client paramiko_3.5.1)
+2025-03-01 13:47:46,110 - paramiko.transport - INFO - Auth rejected (publickey).
+2025-03-01 13:47:46,111 - paramiko.transport - INFO - Auth rejected (publickey).
+2025-03-01 13:47:46,111 - ssh-honeypot - INFO - Authentication attempt: 127.0.0.1 - invalid_user:invalid_pass
+2025-03-01 13:47:46,467 - elastic_transport.transport - INFO - POST https://b2e7e5b202d84e938f7e48f40dd02ef2.us-central1.gcp.cloud.es.io:443/ssh-honeypot/_doc [status:201 duration:0.347s]
+2025-03-01 13:47:46,467 - ssh-honeypot - INFO - Log sent to Elasticsearch
+2025-03-01 13:47:46,467 - paramiko.transport - INFO - Auth rejected (password).
+2025-03-01 13:47:46,469 - ssh-honeypot - INFO - No channel from 127.0.0.1:56767
+2025-03-01 13:47:46,852 - ssh-honeypot - INFO - Connection from: 127.0.0.1:56770
+2025-03-01 13:47:47,220 - elastic_transport.transport - INFO - POST https://b2e7e5b202d84e938f7e48f40dd02ef2.us-central1.gcp.cloud.es.io:443/ssh-honeypot/_doc [status:201 duration:0.346s]
+2025-03-01 13:47:47,220 - ssh-honeypot - INFO - Log sent to Elasticsearch
+2025-03-01 13:47:47,288 - paramiko.transport - INFO - Connected (version 2.0, client paramiko_3.5.1)
+2025-03-01 13:47:47,294 - paramiko.transport - INFO - Auth rejected (publickey).
+2025-03-01 13:47:47,295 - paramiko.transport - INFO - Auth rejected (publickey).
+2025-03-01 13:47:47,295 - ssh-honeypot - INFO - Authentication attempt: 127.0.0.1 - invalid_user:invalid_pass
+2025-03-01 13:47:47,638 - elastic_transport.transport - INFO - POST https://b2e7e5b202d84e938f7e48f40dd02ef2.us-central1.gcp.cloud.es.io:443/ssh-honeypot/_doc [status:201 duration:0.333s]
+2025-03-01 13:47:47,639 - ssh-honeypot - INFO - Log sent to Elasticsearch
+2025-03-01 13:47:47,639 - paramiko.transport - INFO - Auth rejected (password).
+2025-03-01 13:47:47,640 - ssh-honeypot - INFO - No channel from 127.0.0.1:56770
+2025-03-01 13:47:47,775 - ssh-honeypot - INFO - Connection from: 127.0.0.1:56773
+2025-03-01 13:47:48,131 - elastic_transport.transport - INFO - POST https://b2e7e5b202d84e938f7e48f40dd02ef2.us-central1.gcp.cloud.es.io:443/ssh-honeypot/_doc [status:201 duration:0.335s]
+2025-03-01 13:47:48,131 - ssh-honeypot - INFO - Log sent to Elasticsearch
+2025-03-01 13:47:48,200 - paramiko.transport - INFO - Connected (version 2.0, client paramiko_3.5.1)
+2025-03-01 13:47:48,206 - paramiko.transport - INFO - Auth rejected (publickey).
+2025-03-01 13:47:48,207 - paramiko.transport - INFO - Auth rejected (publickey).
+2025-03-01 13:47:48,207 - ssh-honeypot - INFO - Authentication attempt: 127.0.0.1 - invalid_user:invalid_pass
+2025-03-01 13:47:48,537 - elastic_transport.transport - INFO - POST https://b2e7e5b202d84e938f7e48f40dd02ef2.us-central1.gcp.cloud.es.io:443/ssh-honeypot/_doc [status:201 duration:0.320s]
+2025-03-01 13:47:48,537 - ssh-honeypot - INFO - Log sent to Elasticsearch
+2025-03-01 13:47:48,537 - paramiko.transport - INFO - Auth rejected (password).
+2025-03-01 13:47:48,538 - ssh-honeypot - INFO - No channel from 127.0.0.1:56773
+2025-03-01 13:47:48,826 - ssh-honeypot - INFO - Connection from: 127.0.0.1:56776
+2025-03-01 13:47:49,194 - elastic_transport.transport - INFO - POST https://b2e7e5b202d84e938f7e48f40dd02ef2.us-central1.gcp.cloud.es.io:443/ssh-honeypot/_doc [status:201 duration:0.348s]
+2025-03-01 13:47:49,194 - ssh-honeypot - INFO - Log sent to Elasticsearch
+2025-03-01 13:47:49,261 - paramiko.transport - INFO - Connected (version 2.0, client paramiko_3.5.1)
+2025-03-01 13:47:49,267 - paramiko.transport - INFO - Auth rejected (publickey).
+2025-03-01 13:47:49,267 - paramiko.transport - INFO - Auth rejected (publickey).
+2025-03-01 13:47:49,268 - ssh-honeypot - INFO - Authentication attempt: 127.0.0.1 - invalid_user:invalid_pass
+2025-03-01 13:47:49,610 - elastic_transport.transport - INFO - POST https://b2e7e5b202d84e938f7e48f40dd02ef2.us-central1.gcp.cloud.es.io:443/ssh-honeypot/_doc [status:201 duration:0.333s]
+2025-03-01 13:47:49,610 - ssh-honeypot - INFO - Log sent to Elasticsearch
+2025-03-01 13:47:49,610 - paramiko.transport - INFO - Auth rejected (password).
+2025-03-01 13:47:49,610 - ssh-honeypot - INFO - No channel from 127.0.0.1:56776
+2025-03-01 13:47:50,033 - ssh-honeypot - INFO - Connection from: 127.0.0.1:56779
+2025-03-01 13:47:50,386 - elastic_transport.transport - INFO - POST https://b2e7e5b202d84e938f7e48f40dd02ef2.us-central1.gcp.cloud.es.io:443/ssh-honeypot/_doc [status:201 duration:0.330s]
+2025-03-01 13:47:50,386 - ssh-honeypot - INFO - Log sent to Elasticsearch
+2025-03-01 13:47:50,455 - paramiko.transport - INFO - Connected (version 2.0, client paramiko_3.5.1)
+2025-03-01 13:47:50,461 - paramiko.transport - INFO - Auth rejected (publickey).
+2025-03-01 13:47:50,461 - paramiko.transport - INFO - Auth rejected (publickey).
+2025-03-01 13:47:50,462 - ssh-honeypot - INFO - Authentication attempt: 127.0.0.1 - invalid_user:invalid_pass
+2025-03-01 13:47:50,800 - elastic_transport.transport - INFO - POST https://b2e7e5b202d84e938f7e48f40dd02ef2.us-central1.gcp.cloud.es.io:443/ssh-honeypot/_doc [status:201 duration:0.328s]
+2025-03-01 13:47:50,800 - ssh-honeypot - INFO - Log sent to Elasticsearch
+2025-03-01 13:47:50,800 - paramiko.transport - INFO - Auth rejected (password).
+2025-03-01 13:47:50,802 - ssh-honeypot - INFO - No channel from 127.0.0.1:56779
+2025-03-01 13:47:51,196 - ssh-honeypot - INFO - Connection from: 127.0.0.1:56782
+2025-03-01 13:47:51,554 - elastic_transport.transport - INFO - POST https://b2e7e5b202d84e938f7e48f40dd02ef2.us-central1.gcp.cloud.es.io:443/ssh-honeypot/_doc [status:201 duration:0.336s]
+2025-03-01 13:47:51,555 - ssh-honeypot - INFO - Log sent to Elasticsearch
+2025-03-01 13:47:51,625 - paramiko.transport - INFO - Connected (version 2.0, client paramiko_3.5.1)
+2025-03-01 13:47:51,630 - paramiko.transport - INFO - Auth rejected (publickey).
+2025-03-01 13:47:51,630 - paramiko.transport - INFO - Auth rejected (publickey).
+2025-03-01 13:47:51,631 - ssh-honeypot - INFO - Authentication attempt: 127.0.0.1 - invalid_user:invalid_pass
+2025-03-01 13:47:51,966 - elastic_transport.transport - INFO - POST https://b2e7e5b202d84e938f7e48f40dd02ef2.us-central1.gcp.cloud.es.io:443/ssh-honeypot/_doc [status:201 duration:0.326s]
+2025-03-01 13:47:51,966 - ssh-honeypot - INFO - Log sent to Elasticsearch
+2025-03-01 13:47:51,966 - paramiko.transport - INFO - Auth rejected (password).
+2025-03-01 13:47:51,968 - ssh-honeypot - INFO - No channel from 127.0.0.1:56782
+2025-03-01 13:47:52,291 - ssh-honeypot - INFO - Connection from: 127.0.0.1:56785
+2025-03-01 13:47:52,640 - elastic_transport.transport - INFO - POST https://b2e7e5b202d84e938f7e48f40dd02ef2.us-central1.gcp.cloud.es.io:443/ssh-honeypot/_doc [status:201 duration:0.329s]
+2025-03-01 13:47:52,640 - ssh-honeypot - INFO - Log sent to Elasticsearch
+2025-03-01 13:47:52,709 - paramiko.transport - INFO - Connected (version 2.0, client paramiko_3.5.1)
+2025-03-01 13:47:52,715 - paramiko.transport - INFO - Auth rejected (publickey).
+2025-03-01 13:47:52,716 - paramiko.transport - INFO - Auth rejected (publickey).
+2025-03-01 13:47:52,716 - ssh-honeypot - INFO - Authentication attempt: 127.0.0.1 - invalid_user:invalid_pass
+2025-03-01 13:47:53,055 - elastic_transport.transport - INFO - POST https://b2e7e5b202d84e938f7e48f40dd02ef2.us-central1.gcp.cloud.es.io:443/ssh-honeypot/_doc [status:201 duration:0.328s]
+2025-03-01 13:47:53,055 - ssh-honeypot - INFO - Log sent to Elasticsearch
+2025-03-01 13:47:53,055 - paramiko.transport - INFO - Auth rejected (password).
+2025-03-01 13:47:53,057 - ssh-honeypot - INFO - No channel from 127.0.0.1:56785
+2025-03-01 13:47:53,189 - ssh-honeypot - INFO - Connection from: 127.0.0.1:56788
+2025-03-01 13:47:53,534 - elastic_transport.transport - INFO - POST https://b2e7e5b202d84e938f7e48f40dd02ef2.us-central1.gcp.cloud.es.io:443/ssh-honeypot/_doc [status:201 duration:0.322s]
+2025-03-01 13:47:53,534 - ssh-honeypot - INFO - Log sent to Elasticsearch
+2025-03-01 13:47:53,603 - paramiko.transport - INFO - Connected (version 2.0, client paramiko_3.5.1)
+2025-03-01 13:47:53,609 - paramiko.transport - INFO - Auth rejected (publickey).
+2025-03-01 13:47:53,610 - paramiko.transport - INFO - Auth rejected (publickey).
+2025-03-01 13:47:53,610 - ssh-honeypot - INFO - Authentication attempt: 127.0.0.1 - invalid_user:invalid_pass
+2025-03-01 13:47:53,936 - elastic_transport.transport - INFO - POST https://b2e7e5b202d84e938f7e48f40dd02ef2.us-central1.gcp.cloud.es.io:443/ssh-honeypot/_doc [status:201 duration:0.316s]
+2025-03-01 13:47:53,936 - ssh-honeypot - INFO - Log sent to Elasticsearch
+2025-03-01 13:47:53,936 - paramiko.transport - INFO - Auth rejected (password).
+2025-03-01 13:47:53,938 - ssh-honeypot - INFO - No channel from 127.0.0.1:56788
+2025-03-01 13:47:54,441 - ssh-honeypot - INFO - Connection from: 127.0.0.1:56791
+2025-03-01 13:47:54,775 - elastic_transport.transport - INFO - POST https://b2e7e5b202d84e938f7e48f40dd02ef2.us-central1.gcp.cloud.es.io:443/ssh-honeypot/_doc [status:201 duration:0.316s]
+2025-03-01 13:47:54,776 - ssh-honeypot - INFO - Log sent to Elasticsearch
+2025-03-01 13:47:54,841 - paramiko.transport - INFO - Connected (version 2.0, client paramiko_3.5.1)
+2025-03-01 13:47:54,847 - paramiko.transport - INFO - Auth rejected (publickey).
+2025-03-01 13:47:54,848 - paramiko.transport - INFO - Auth rejected (publickey).
+2025-03-01 13:47:54,848 - ssh-honeypot - INFO - Authentication attempt: 127.0.0.1 - invalid_user:invalid_pass
+2025-03-01 13:47:55,179 - elastic_transport.transport - INFO - POST https://b2e7e5b202d84e938f7e48f40dd02ef2.us-central1.gcp.cloud.es.io:443/ssh-honeypot/_doc [status:201 duration:0.322s]
+2025-03-01 13:47:55,179 - ssh-honeypot - INFO - Log sent to Elasticsearch
+2025-03-01 13:47:55,179 - paramiko.transport - INFO - Auth rejected (password).
+2025-03-01 13:47:55,181 - ssh-honeypot - INFO - No channel from 127.0.0.1:56791
+2025-03-01 13:47:55,573 - ssh-honeypot - INFO - Connection from: 127.0.0.1:56794
+2025-03-01 13:47:55,914 - elastic_transport.transport - INFO - POST https://b2e7e5b202d84e938f7e48f40dd02ef2.us-central1.gcp.cloud.es.io:443/ssh-honeypot/_doc [status:201 duration:0.322s]
+2025-03-01 13:47:55,914 - ssh-honeypot - INFO - Log sent to Elasticsearch
+2025-03-01 13:47:55,983 - paramiko.transport - INFO - Connected (version 2.0, client paramiko_3.5.1)
+2025-03-01 13:47:55,989 - paramiko.transport - INFO - Auth rejected (publickey).
+2025-03-01 13:47:55,990 - paramiko.transport - INFO - Auth rejected (publickey).
+2025-03-01 13:47:55,990 - ssh-honeypot - INFO - Authentication attempt: 127.0.0.1 - invalid_user:invalid_pass
+2025-03-01 13:47:56,320 - elastic_transport.transport - INFO - POST https://b2e7e5b202d84e938f7e48f40dd02ef2.us-central1.gcp.cloud.es.io:443/ssh-honeypot/_doc [status:201 duration:0.320s]
+2025-03-01 13:47:56,320 - ssh-honeypot - INFO - Log sent to Elasticsearch
+2025-03-01 13:47:56,320 - paramiko.transport - INFO - Auth rejected (password).
+2025-03-01 13:47:56,322 - ssh-honeypot - INFO - No channel from 127.0.0.1:56794
+2025-03-01 13:47:56,487 - ssh-honeypot - INFO - Connection from: 127.0.0.1:56797
+2025-03-01 13:47:56,842 - elastic_transport.transport - INFO - POST https://b2e7e5b202d84e938f7e48f40dd02ef2.us-central1.gcp.cloud.es.io:443/ssh-honeypot/_doc [status:201 duration:0.334s]
+2025-03-01 13:47:56,842 - ssh-honeypot - INFO - Log sent to Elasticsearch
+2025-03-01 13:47:56,916 - paramiko.transport - INFO - Connected (version 2.0, client paramiko_3.5.1)
+2025-03-01 13:47:56,921 - paramiko.transport - INFO - Auth rejected (publickey).
+2025-03-01 13:47:56,922 - paramiko.transport - INFO - Auth rejected (publickey).
+2025-03-01 13:47:56,923 - ssh-honeypot - INFO - Authentication attempt: 127.0.0.1 - invalid_user:invalid_pass
+2025-03-01 13:47:57,250 - elastic_transport.transport - INFO - POST https://b2e7e5b202d84e938f7e48f40dd02ef2.us-central1.gcp.cloud.es.io:443/ssh-honeypot/_doc [status:201 duration:0.318s]
+2025-03-01 13:47:57,251 - ssh-honeypot - INFO - Log sent to Elasticsearch
+2025-03-01 13:47:57,251 - paramiko.transport - INFO - Auth rejected (password).
+2025-03-01 13:47:57,252 - ssh-honeypot - INFO - No channel from 127.0.0.1:56797
+2025-03-01 13:47:57,756 - ssh-honeypot - INFO - Connection from: 127.0.0.1:56800
+2025-03-01 13:47:58,112 - elastic_transport.transport - INFO - POST https://b2e7e5b202d84e938f7e48f40dd02ef2.us-central1.gcp.cloud.es.io:443/ssh-honeypot/_doc [status:201 duration:0.333s]
+2025-03-01 13:47:58,113 - ssh-honeypot - INFO - Log sent to Elasticsearch
+2025-03-01 13:47:58,183 - paramiko.transport - INFO - Connected (version 2.0, client paramiko_3.5.1)
+2025-03-01 13:47:58,189 - paramiko.transport - INFO - Auth rejected (publickey).
+2025-03-01 13:47:58,189 - paramiko.transport - INFO - Auth rejected (publickey).
+2025-03-01 13:47:58,189 - ssh-honeypot - INFO - Authentication attempt: 127.0.0.1 - invalid_user:invalid_pass
+2025-03-01 13:47:58,564 - elastic_transport.transport - INFO - POST https://b2e7e5b202d84e938f7e48f40dd02ef2.us-central1.gcp.cloud.es.io:443/ssh-honeypot/_doc [status:201 duration:0.365s]
+2025-03-01 13:47:58,565 - ssh-honeypot - INFO - Log sent to Elasticsearch
+2025-03-01 13:47:58,565 - paramiko.transport - INFO - Auth rejected (password).
+2025-03-01 13:47:58,566 - ssh-honeypot - INFO - No channel from 127.0.0.1:56800
+2025-03-01 13:47:59,069 - ssh-honeypot - INFO - Connection from: 127.0.0.1:56803
+2025-03-01 13:47:59,435 - elastic_transport.transport - INFO - POST https://b2e7e5b202d84e938f7e48f40dd02ef2.us-central1.gcp.cloud.es.io:443/ssh-honeypot/_doc [status:201 duration:0.343s]
+2025-03-01 13:47:59,435 - ssh-honeypot - INFO - Log sent to Elasticsearch
+2025-03-01 13:47:59,503 - paramiko.transport - INFO - Connected (version 2.0, client paramiko_3.5.1)
+2025-03-01 13:47:59,509 - paramiko.transport - INFO - Auth rejected (publickey).
+2025-03-01 13:47:59,510 - paramiko.transport - INFO - Auth rejected (publickey).
+2025-03-01 13:47:59,510 - ssh-honeypot - INFO - Authentication attempt: 127.0.0.1 - invalid_user:invalid_pass
+2025-03-01 13:47:59,848 - elastic_transport.transport - INFO - POST https://b2e7e5b202d84e938f7e48f40dd02ef2.us-central1.gcp.cloud.es.io:443/ssh-honeypot/_doc [status:201 duration:0.328s]
+2025-03-01 13:47:59,849 - ssh-honeypot - INFO - Log sent to Elasticsearch
+2025-03-01 13:47:59,849 - paramiko.transport - INFO - Auth rejected (password).
+2025-03-01 13:47:59,850 - ssh-honeypot - INFO - No channel from 127.0.0.1:56803
+2025-03-01 13:48:00,169 - ssh-honeypot - INFO - Connection from: 127.0.0.1:56806
+2025-03-01 13:48:00,523 - elastic_transport.transport - INFO - POST https://b2e7e5b202d84e938f7e48f40dd02ef2.us-central1.gcp.cloud.es.io:443/ssh-honeypot/_doc [status:201 duration:0.333s]
+2025-03-01 13:48:00,523 - ssh-honeypot - INFO - Log sent to Elasticsearch
+2025-03-01 13:48:00,594 - paramiko.transport - INFO - Connected (version 2.0, client paramiko_3.5.1)
+2025-03-01 13:48:00,599 - paramiko.transport - INFO - Auth rejected (publickey).
+2025-03-01 13:48:00,600 - paramiko.transport - INFO - Auth rejected (publickey).
+2025-03-01 13:48:00,600 - ssh-honeypot - INFO - Authentication attempt: 127.0.0.1 - invalid_user:invalid_pass
+2025-03-01 13:48:00,932 - elastic_transport.transport - INFO - POST https://b2e7e5b202d84e938f7e48f40dd02ef2.us-central1.gcp.cloud.es.io:443/ssh-honeypot/_doc [status:201 duration:0.323s]
+2025-03-01 13:48:00,933 - ssh-honeypot - INFO - Log sent to Elasticsearch
+2025-03-01 13:48:00,933 - paramiko.transport - INFO - Auth rejected (password).
+2025-03-01 13:48:00,934 - ssh-honeypot - INFO - No channel from 127.0.0.1:56806
+2025-03-01 13:48:01,050 - ssh-honeypot - INFO - Connection from: 127.0.0.1:56809
+2025-03-01 13:48:01,389 - elastic_transport.transport - INFO - POST https://b2e7e5b202d84e938f7e48f40dd02ef2.us-central1.gcp.cloud.es.io:443/ssh-honeypot/_doc [status:201 duration:0.317s]
+2025-03-01 13:48:01,389 - ssh-honeypot - INFO - Log sent to Elasticsearch
+2025-03-01 13:48:01,450 - paramiko.transport - INFO - Connected (version 2.0, client paramiko_3.5.1)
+2025-03-01 13:48:01,456 - paramiko.transport - INFO - Auth rejected (publickey).
+2025-03-01 13:48:01,456 - paramiko.transport - INFO - Auth rejected (publickey).
+2025-03-01 13:48:01,457 - ssh-honeypot - INFO - Authentication attempt: 127.0.0.1 - invalid_user:invalid_pass
+2025-03-01 13:48:01,776 - elastic_transport.transport - INFO - POST https://b2e7e5b202d84e938f7e48f40dd02ef2.us-central1.gcp.cloud.es.io:443/ssh-honeypot/_doc [status:201 duration:0.311s]
+2025-03-01 13:48:01,777 - ssh-honeypot - INFO - Log sent to Elasticsearch
+2025-03-01 13:48:01,777 - paramiko.transport - INFO - Auth rejected (password).
+2025-03-01 13:48:01,778 - ssh-honeypot - INFO - No channel from 127.0.0.1:56809
+2025-03-01 13:48:02,043 - ssh-honeypot - INFO - Connection from: 127.0.0.1:56812
+2025-03-01 13:48:02,401 - elastic_transport.transport - INFO - POST https://b2e7e5b202d84e938f7e48f40dd02ef2.us-central1.gcp.cloud.es.io:443/ssh-honeypot/_doc [status:201 duration:0.335s]
+2025-03-01 13:48:02,402 - ssh-honeypot - INFO - Log sent to Elasticsearch
+2025-03-01 13:48:02,478 - paramiko.transport - INFO - Connected (version 2.0, client paramiko_3.5.1)
+2025-03-01 13:48:02,483 - paramiko.transport - INFO - Auth rejected (publickey).
+2025-03-01 13:48:02,484 - paramiko.transport - INFO - Auth rejected (publickey).
+2025-03-01 13:48:02,484 - ssh-honeypot - INFO - Authentication attempt: 127.0.0.1 - invalid_user:invalid_pass
+2025-03-01 13:48:02,820 - elastic_transport.transport - INFO - POST https://b2e7e5b202d84e938f7e48f40dd02ef2.us-central1.gcp.cloud.es.io:443/ssh-honeypot/_doc [status:201 duration:0.327s]
+2025-03-01 13:48:02,820 - ssh-honeypot - INFO - Log sent to Elasticsearch
+2025-03-01 13:48:02,821 - paramiko.transport - INFO - Auth rejected (password).
+2025-03-01 13:48:02,822 - ssh-honeypot - INFO - No channel from 127.0.0.1:56812
+2025-03-01 13:48:03,247 - ssh-honeypot - INFO - Connection from: 127.0.0.1:56815
+2025-03-01 13:48:03,602 - elastic_transport.transport - INFO - POST https://b2e7e5b202d84e938f7e48f40dd02ef2.us-central1.gcp.cloud.es.io:443/ssh-honeypot/_doc [status:201 duration:0.337s]
+2025-03-01 13:48:03,603 - ssh-honeypot - INFO - Log sent to Elasticsearch
+2025-03-01 13:48:03,663 - paramiko.transport - INFO - Connected (version 2.0, client paramiko_3.5.1)
+2025-03-01 13:48:03,670 - paramiko.transport - INFO - Auth rejected (publickey).
+2025-03-01 13:48:03,670 - paramiko.transport - INFO - Auth rejected (publickey).
+2025-03-01 13:48:03,671 - ssh-honeypot - INFO - Authentication attempt: 127.0.0.1 - invalid_user:invalid_pass
+2025-03-01 13:48:04,011 - elastic_transport.transport - INFO - POST https://b2e7e5b202d84e938f7e48f40dd02ef2.us-central1.gcp.cloud.es.io:443/ssh-honeypot/_doc [status:201 duration:0.331s]
+2025-03-01 13:48:04,012 - ssh-honeypot - INFO - Log sent to Elasticsearch
+2025-03-01 13:48:04,012 - paramiko.transport - INFO - Auth rejected (password).
+2025-03-01 13:48:04,013 - ssh-honeypot - INFO - No channel from 127.0.0.1:56815
+2025-03-01 13:48:04,271 - ssh-honeypot - INFO - Connection from: 127.0.0.1:56818
+2025-03-01 13:48:04,635 - elastic_transport.transport - INFO - POST https://b2e7e5b202d84e938f7e48f40dd02ef2.us-central1.gcp.cloud.es.io:443/ssh-honeypot/_doc [status:201 duration:0.341s]
+2025-03-01 13:48:04,636 - ssh-honeypot - INFO - Log sent to Elasticsearch
+2025-03-01 13:48:04,705 - paramiko.transport - INFO - Connected (version 2.0, client paramiko_3.5.1)
+2025-03-01 13:48:04,710 - paramiko.transport - INFO - Auth rejected (publickey).
+2025-03-01 13:48:04,711 - paramiko.transport - INFO - Auth rejected (publickey).
+2025-03-01 13:48:04,711 - ssh-honeypot - INFO - Authentication attempt: 127.0.0.1 - invalid_user:invalid_pass
+2025-03-01 13:48:05,032 - elastic_transport.transport - INFO - POST https://b2e7e5b202d84e938f7e48f40dd02ef2.us-central1.gcp.cloud.es.io:443/ssh-honeypot/_doc [status:201 duration:0.311s]
+2025-03-01 13:48:05,032 - ssh-honeypot - INFO - Log sent to Elasticsearch
+2025-03-01 13:48:05,032 - paramiko.transport - INFO - Auth rejected (password).
+2025-03-01 13:48:05,034 - ssh-honeypot - INFO - No channel from 127.0.0.1:56818
+2025-03-01 13:48:05,369 - ssh-honeypot - INFO - Connection from: 127.0.0.1:56821
+2025-03-01 13:48:05,727 - elastic_transport.transport - INFO - POST https://b2e7e5b202d84e938f7e48f40dd02ef2.us-central1.gcp.cloud.es.io:443/ssh-honeypot/_doc [status:201 duration:0.336s]
+2025-03-01 13:48:05,728 - ssh-honeypot - INFO - Log sent to Elasticsearch
+2025-03-01 13:48:05,798 - paramiko.transport - INFO - Connected (version 2.0, client paramiko_3.5.1)
+2025-03-01 13:48:05,804 - paramiko.transport - INFO - Auth rejected (publickey).
+2025-03-01 13:48:05,805 - paramiko.transport - INFO - Auth rejected (publickey).
+2025-03-01 13:48:05,805 - ssh-honeypot - INFO - Authentication attempt: 127.0.0.1 - invalid_user:invalid_pass
+2025-03-01 13:48:06,129 - elastic_transport.transport - INFO - POST https://b2e7e5b202d84e938f7e48f40dd02ef2.us-central1.gcp.cloud.es.io:443/ssh-honeypot/_doc [status:201 duration:0.314s]
+2025-03-01 13:48:06,129 - ssh-honeypot - INFO - Log sent to Elasticsearch
+2025-03-01 13:48:06,129 - paramiko.transport - INFO - Auth rejected (password).
+2025-03-01 13:48:06,131 - ssh-honeypot - INFO - No channel from 127.0.0.1:56821
+2025-03-01 13:48:06,261 - ssh-honeypot - INFO - Connection from: 127.0.0.1:56824
+2025-03-01 13:48:06,621 - elastic_transport.transport - INFO - POST https://b2e7e5b202d84e938f7e48f40dd02ef2.us-central1.gcp.cloud.es.io:443/ssh-honeypot/_doc [status:201 duration:0.337s]
+2025-03-01 13:48:06,621 - ssh-honeypot - INFO - Log sent to Elasticsearch
+2025-03-01 13:48:06,690 - paramiko.transport - INFO - Connected (version 2.0, client paramiko_3.5.1)
+2025-03-01 13:48:06,697 - paramiko.transport - INFO - Auth rejected (publickey).
+2025-03-01 13:48:06,697 - paramiko.transport - INFO - Auth rejected (publickey).
+2025-03-01 13:48:06,698 - ssh-honeypot - INFO - Authentication attempt: 127.0.0.1 - invalid_user:invalid_pass
+2025-03-01 13:48:07,024 - elastic_transport.transport - INFO - POST https://b2e7e5b202d84e938f7e48f40dd02ef2.us-central1.gcp.cloud.es.io:443/ssh-honeypot/_doc [status:201 duration:0.317s]
+2025-03-01 13:48:07,025 - ssh-honeypot - INFO - Log sent to Elasticsearch
+2025-03-01 13:48:07,025 - paramiko.transport - INFO - Auth rejected (password).
+2025-03-01 13:48:07,026 - ssh-honeypot - INFO - No channel from 127.0.0.1:56824
+2025-03-01 13:48:07,292 - ssh-honeypot - INFO - Connection from: 127.0.0.1:56827
+2025-03-01 13:48:07,655 - elastic_transport.transport - INFO - POST https://b2e7e5b202d84e938f7e48f40dd02ef2.us-central1.gcp.cloud.es.io:443/ssh-honeypot/_doc [status:201 duration:0.341s]
+2025-03-01 13:48:07,656 - ssh-honeypot - INFO - Log sent to Elasticsearch
+2025-03-01 13:48:07,727 - paramiko.transport - INFO - Connected (version 2.0, client paramiko_3.5.1)
+2025-03-01 13:48:07,734 - paramiko.transport - INFO - Auth rejected (publickey).
+2025-03-01 13:48:07,735 - paramiko.transport - INFO - Auth rejected (publickey).
+2025-03-01 13:48:07,735 - ssh-honeypot - INFO - Authentication attempt: 127.0.0.1 - invalid_user:invalid_pass
+2025-03-01 13:48:08,063 - elastic_transport.transport - INFO - POST https://b2e7e5b202d84e938f7e48f40dd02ef2.us-central1.gcp.cloud.es.io:443/ssh-honeypot/_doc [status:201 duration:0.319s]
+2025-03-01 13:48:08,063 - ssh-honeypot - INFO - Log sent to Elasticsearch
+2025-03-01 13:48:08,064 - paramiko.transport - INFO - Auth rejected (password).
+2025-03-01 13:48:08,065 - ssh-honeypot - INFO - No channel from 127.0.0.1:56827
+2025-03-01 13:48:08,234 - ssh-honeypot - INFO - Connection from: 127.0.0.1:56830
+2025-03-01 13:48:08,580 - elastic_transport.transport - INFO - POST https://b2e7e5b202d84e938f7e48f40dd02ef2.us-central1.gcp.cloud.es.io:443/ssh-honeypot/_doc [status:201 duration:0.324s]
+2025-03-01 13:48:08,581 - ssh-honeypot - INFO - Log sent to Elasticsearch
+2025-03-01 13:48:08,649 - paramiko.transport - INFO - Connected (version 2.0, client paramiko_3.5.1)
+2025-03-01 13:48:08,656 - paramiko.transport - INFO - Auth rejected (publickey).
+2025-03-01 13:48:08,657 - paramiko.transport - INFO - Auth rejected (publickey).
+2025-03-01 13:48:08,657 - ssh-honeypot - INFO - Authentication attempt: 127.0.0.1 - invalid_user:invalid_pass
+2025-03-01 13:48:08,999 - elastic_transport.transport - INFO - POST https://b2e7e5b202d84e938f7e48f40dd02ef2.us-central1.gcp.cloud.es.io:443/ssh-honeypot/_doc [status:201 duration:0.332s]
+2025-03-01 13:48:09,000 - ssh-honeypot - INFO - Log sent to Elasticsearch
+2025-03-01 13:48:09,000 - paramiko.transport - INFO - Auth rejected (password).
+2025-03-01 13:48:09,002 - ssh-honeypot - INFO - No channel from 127.0.0.1:56830
+2025-03-01 13:48:09,259 - ssh-honeypot - INFO - Connection from: 127.0.0.1:56833
+2025-03-01 13:48:09,629 - elastic_transport.transport - INFO - POST https://b2e7e5b202d84e938f7e48f40dd02ef2.us-central1.gcp.cloud.es.io:443/ssh-honeypot/_doc [status:201 duration:0.346s]
+2025-03-01 13:48:09,629 - ssh-honeypot - INFO - Log sent to Elasticsearch
+2025-03-01 13:48:09,699 - paramiko.transport - INFO - Connected (version 2.0, client paramiko_3.5.1)
+2025-03-01 13:48:09,706 - paramiko.transport - INFO - Auth rejected (publickey).
+2025-03-01 13:48:09,706 - paramiko.transport - INFO - Auth rejected (publickey).
+2025-03-01 13:48:09,707 - ssh-honeypot - INFO - Authentication attempt: 127.0.0.1 - invalid_user:invalid_pass
+2025-03-01 13:48:10,045 - elastic_transport.transport - INFO - POST https://b2e7e5b202d84e938f7e48f40dd02ef2.us-central1.gcp.cloud.es.io:443/ssh-honeypot/_doc [status:201 duration:0.328s]
+2025-03-01 13:48:10,045 - ssh-honeypot - INFO - Log sent to Elasticsearch
+2025-03-01 13:48:10,045 - paramiko.transport - INFO - Auth rejected (password).
+2025-03-01 13:48:10,047 - ssh-honeypot - INFO - No channel from 127.0.0.1:56833
+2025-03-01 13:48:10,472 - ssh-honeypot - INFO - Connection from: 127.0.0.1:56836
+2025-03-01 13:48:10,842 - elastic_transport.transport - INFO - POST https://b2e7e5b202d84e938f7e48f40dd02ef2.us-central1.gcp.cloud.es.io:443/ssh-honeypot/_doc [status:201 duration:0.348s]
+2025-03-01 13:48:10,843 - ssh-honeypot - INFO - Log sent to Elasticsearch
+2025-03-01 13:48:10,906 - paramiko.transport - INFO - Connected (version 2.0, client paramiko_3.5.1)
+2025-03-01 13:48:10,912 - paramiko.transport - INFO - Auth rejected (publickey).
+2025-03-01 13:48:10,913 - paramiko.transport - INFO - Auth rejected (publickey).
+2025-03-01 13:48:10,913 - ssh-honeypot - INFO - Authentication attempt: 127.0.0.1 - invalid_user:invalid_pass
+2025-03-01 13:48:11,243 - elastic_transport.transport - INFO - POST https://b2e7e5b202d84e938f7e48f40dd02ef2.us-central1.gcp.cloud.es.io:443/ssh-honeypot/_doc [status:201 duration:0.321s]
+2025-03-01 13:48:11,244 - ssh-honeypot - INFO - Log sent to Elasticsearch
+2025-03-01 13:48:11,244 - paramiko.transport - INFO - Auth rejected (password).
+2025-03-01 13:48:11,245 - ssh-honeypot - INFO - No channel from 127.0.0.1:56836
+2025-03-01 13:48:11,730 - ssh-honeypot - INFO - Connection from: 127.0.0.1:56839
+2025-03-01 13:48:12,089 - elastic_transport.transport - INFO - POST https://b2e7e5b202d84e938f7e48f40dd02ef2.us-central1.gcp.cloud.es.io:443/ssh-honeypot/_doc [status:201 duration:0.336s]
+2025-03-01 13:48:12,090 - ssh-honeypot - INFO - Log sent to Elasticsearch
+2025-03-01 13:48:12,155 - paramiko.transport - INFO - Connected (version 2.0, client paramiko_3.5.1)
+2025-03-01 13:48:12,161 - paramiko.transport - INFO - Auth rejected (publickey).
+2025-03-01 13:48:12,162 - paramiko.transport - INFO - Auth rejected (publickey).
+2025-03-01 13:48:12,162 - ssh-honeypot - INFO - Authentication attempt: 127.0.0.1 - invalid_user:invalid_pass
+2025-03-01 13:48:12,495 - elastic_transport.transport - INFO - POST https://b2e7e5b202d84e938f7e48f40dd02ef2.us-central1.gcp.cloud.es.io:443/ssh-honeypot/_doc [status:201 duration:0.323s]
+2025-03-01 13:48:12,496 - ssh-honeypot - INFO - Log sent to Elasticsearch
+2025-03-01 13:48:12,496 - paramiko.transport - INFO - Auth rejected (password).
+2025-03-01 13:48:12,497 - ssh-honeypot - INFO - No channel from 127.0.0.1:56839
+2025-03-01 13:48:12,943 - ssh-honeypot - INFO - Connection from: 127.0.0.1:56842
+2025-03-01 13:48:13,303 - elastic_transport.transport - INFO - POST https://b2e7e5b202d84e938f7e48f40dd02ef2.us-central1.gcp.cloud.es.io:443/ssh-honeypot/_doc [status:201 duration:0.339s]
+2025-03-01 13:48:13,303 - ssh-honeypot - INFO - Log sent to Elasticsearch
+2025-03-01 13:48:13,375 - paramiko.transport - INFO - Connected (version 2.0, client paramiko_3.5.1)
+2025-03-01 13:48:13,381 - paramiko.transport - INFO - Auth rejected (publickey).
+2025-03-01 13:48:13,382 - paramiko.transport - INFO - Auth rejected (publickey).
+2025-03-01 13:48:13,382 - ssh-honeypot - INFO - Authentication attempt: 127.0.0.1 - invalid_user:invalid_pass
+2025-03-01 13:48:13,698 - elastic_transport.transport - INFO - POST https://b2e7e5b202d84e938f7e48f40dd02ef2.us-central1.gcp.cloud.es.io:443/ssh-honeypot/_doc [status:201 duration:0.307s]
+2025-03-01 13:48:13,698 - ssh-honeypot - INFO - Log sent to Elasticsearch
+2025-03-01 13:48:13,699 - paramiko.transport - INFO - Auth rejected (password).
+2025-03-01 13:48:13,700 - ssh-honeypot - INFO - No channel from 127.0.0.1:56842
+2025-03-01 13:48:13,915 - ssh-honeypot - INFO - Connection from: 127.0.0.1:56845
+2025-03-01 13:48:14,273 - elastic_transport.transport - INFO - POST https://b2e7e5b202d84e938f7e48f40dd02ef2.us-central1.gcp.cloud.es.io:443/ssh-honeypot/_doc [status:201 duration:0.339s]
+2025-03-01 13:48:14,274 - ssh-honeypot - INFO - Log sent to Elasticsearch
+2025-03-01 13:48:14,343 - paramiko.transport - INFO - Connected (version 2.0, client paramiko_3.5.1)
+2025-03-01 13:48:14,349 - paramiko.transport - INFO - Auth rejected (publickey).
+2025-03-01 13:48:14,350 - paramiko.transport - INFO - Auth rejected (publickey).
+2025-03-01 13:48:14,350 - ssh-honeypot - INFO - Authentication attempt: 127.0.0.1 - invalid_user:invalid_pass
+2025-03-01 13:48:14,683 - elastic_transport.transport - INFO - POST https://b2e7e5b202d84e938f7e48f40dd02ef2.us-central1.gcp.cloud.es.io:443/ssh-honeypot/_doc [status:201 duration:0.323s]
+2025-03-01 13:48:14,684 - ssh-honeypot - INFO - Log sent to Elasticsearch
+2025-03-01 13:48:14,684 - paramiko.transport - INFO - Auth rejected (password).
+2025-03-01 13:48:14,685 - ssh-honeypot - INFO - No channel from 127.0.0.1:56845
+2025-03-01 13:48:15,023 - ssh-honeypot - INFO - Connection from: 127.0.0.1:56848
+2025-03-01 13:48:15,380 - elastic_transport.transport - INFO - POST https://b2e7e5b202d84e938f7e48f40dd02ef2.us-central1.gcp.cloud.es.io:443/ssh-honeypot/_doc [status:201 duration:0.340s]
+2025-03-01 13:48:15,381 - ssh-honeypot - INFO - Log sent to Elasticsearch
+2025-03-01 13:48:15,448 - paramiko.transport - INFO - Connected (version 2.0, client paramiko_3.5.1)
+2025-03-01 13:48:15,454 - paramiko.transport - INFO - Auth rejected (publickey).
+2025-03-01 13:48:15,455 - paramiko.transport - INFO - Auth rejected (publickey).
+2025-03-01 13:48:15,455 - ssh-honeypot - INFO - Authentication attempt: 127.0.0.1 - invalid_user:invalid_pass
+2025-03-01 13:48:15,773 - elastic_transport.transport - INFO - POST https://b2e7e5b202d84e938f7e48f40dd02ef2.us-central1.gcp.cloud.es.io:443/ssh-honeypot/_doc [status:201 duration:0.308s]
+2025-03-01 13:48:15,774 - ssh-honeypot - INFO - Log sent to Elasticsearch
+2025-03-01 13:48:15,774 - paramiko.transport - INFO - Auth rejected (password).
+2025-03-01 13:48:15,775 - ssh-honeypot - INFO - No channel from 127.0.0.1:56848
+2025-03-01 13:48:16,084 - ssh-honeypot - INFO - Connection from: 127.0.0.1:56851
+2025-03-01 13:48:16,444 - elastic_transport.transport - INFO - POST https://b2e7e5b202d84e938f7e48f40dd02ef2.us-central1.gcp.cloud.es.io:443/ssh-honeypot/_doc [status:201 duration:0.336s]
+2025-03-01 13:48:16,444 - ssh-honeypot - INFO - Log sent to Elasticsearch
+2025-03-01 13:48:16,511 - paramiko.transport - INFO - Connected (version 2.0, client paramiko_3.5.1)
+2025-03-01 13:48:16,517 - paramiko.transport - INFO - Auth rejected (publickey).
+2025-03-01 13:48:16,517 - paramiko.transport - INFO - Auth rejected (publickey).
+2025-03-01 13:48:16,518 - ssh-honeypot - INFO - Authentication attempt: 127.0.0.1 - invalid_user:invalid_pass
+2025-03-01 13:48:16,844 - elastic_transport.transport - INFO - POST https://b2e7e5b202d84e938f7e48f40dd02ef2.us-central1.gcp.cloud.es.io:443/ssh-honeypot/_doc [status:201 duration:0.317s]
+2025-03-01 13:48:16,844 - ssh-honeypot - INFO - Log sent to Elasticsearch
+2025-03-01 13:48:16,844 - paramiko.transport - INFO - Auth rejected (password).
+2025-03-01 13:48:16,845 - ssh-honeypot - INFO - No channel from 127.0.0.1:56851
+2025-03-01 13:48:17,178 - ssh-honeypot - INFO - Connection from: 127.0.0.1:56854
+2025-03-01 13:48:17,532 - elastic_transport.transport - INFO - POST https://b2e7e5b202d84e938f7e48f40dd02ef2.us-central1.gcp.cloud.es.io:443/ssh-honeypot/_doc [status:201 duration:0.328s]
+2025-03-01 13:48:17,532 - ssh-honeypot - INFO - Log sent to Elasticsearch
+2025-03-01 13:48:17,603 - paramiko.transport - INFO - Connected (version 2.0, client paramiko_3.5.1)
+2025-03-01 13:48:17,608 - paramiko.transport - INFO - Auth rejected (publickey).
+2025-03-01 13:48:17,608 - paramiko.transport - INFO - Auth rejected (publickey).
+2025-03-01 13:48:17,609 - ssh-honeypot - INFO - Authentication attempt: 127.0.0.1 - invalid_user:invalid_pass
+2025-03-01 13:48:17,937 - elastic_transport.transport - INFO - POST https://b2e7e5b202d84e938f7e48f40dd02ef2.us-central1.gcp.cloud.es.io:443/ssh-honeypot/_doc [status:201 duration:0.319s]
+2025-03-01 13:48:17,938 - ssh-honeypot - INFO - Log sent to Elasticsearch
+2025-03-01 13:48:17,938 - paramiko.transport - INFO - Auth rejected (password).
+2025-03-01 13:48:17,939 - ssh-honeypot - INFO - No channel from 127.0.0.1:56854
+2025-03-01 13:48:18,068 - ssh-honeypot - INFO - Connection from: 127.0.0.1:56857
+2025-03-01 13:48:18,427 - elastic_transport.transport - INFO - POST https://b2e7e5b202d84e938f7e48f40dd02ef2.us-central1.gcp.cloud.es.io:443/ssh-honeypot/_doc [status:201 duration:0.336s]
+2025-03-01 13:48:18,427 - ssh-honeypot - INFO - Log sent to Elasticsearch
+2025-03-01 13:48:18,499 - paramiko.transport - INFO - Connected (version 2.0, client paramiko_3.5.1)
+2025-03-01 13:48:18,505 - paramiko.transport - INFO - Auth rejected (publickey).
+2025-03-01 13:48:18,505 - paramiko.transport - INFO - Auth rejected (publickey).
+2025-03-01 13:48:18,506 - ssh-honeypot - INFO - Authentication attempt: 127.0.0.1 - invalid_user:invalid_pass
+2025-03-01 13:48:18,850 - elastic_transport.transport - INFO - POST https://b2e7e5b202d84e938f7e48f40dd02ef2.us-central1.gcp.cloud.es.io:443/ssh-honeypot/_doc [status:201 duration:0.335s]
+2025-03-01 13:48:18,850 - ssh-honeypot - INFO - Log sent to Elasticsearch
+2025-03-01 13:48:18,850 - paramiko.transport - INFO - Auth rejected (password).
+2025-03-01 13:48:18,852 - ssh-honeypot - INFO - No channel from 127.0.0.1:56857
+2025-03-01 13:48:19,092 - ssh-honeypot - INFO - Connection from: 127.0.0.1:56860
+2025-03-01 13:48:19,442 - elastic_transport.transport - INFO - POST https://b2e7e5b202d84e938f7e48f40dd02ef2.us-central1.gcp.cloud.es.io:443/ssh-honeypot/_doc [status:201 duration:0.331s]
+2025-03-01 13:48:19,442 - ssh-honeypot - INFO - Log sent to Elasticsearch
+2025-03-01 13:48:19,506 - paramiko.transport - INFO - Connected (version 2.0, client paramiko_3.5.1)
+2025-03-01 13:48:19,512 - paramiko.transport - INFO - Auth rejected (publickey).
+2025-03-01 13:48:19,512 - paramiko.transport - INFO - Auth rejected (publickey).
+2025-03-01 13:48:19,513 - ssh-honeypot - INFO - Authentication attempt: 127.0.0.1 - invalid_user:invalid_pass
+2025-03-01 13:48:19,851 - elastic_transport.transport - INFO - POST https://b2e7e5b202d84e938f7e48f40dd02ef2.us-central1.gcp.cloud.es.io:443/ssh-honeypot/_doc [status:201 duration:0.324s]
+2025-03-01 13:48:19,851 - ssh-honeypot - INFO - Log sent to Elasticsearch
+2025-03-01 13:48:19,851 - paramiko.transport - INFO - Auth rejected (password).
+2025-03-01 13:48:19,853 - ssh-honeypot - INFO - No channel from 127.0.0.1:56860
+2025-03-01 13:48:20,077 - ssh-honeypot - INFO - Connection from: 127.0.0.1:56863
+2025-03-01 13:48:20,409 - elastic_transport.transport - INFO - POST https://b2e7e5b202d84e938f7e48f40dd02ef2.us-central1.gcp.cloud.es.io:443/ssh-honeypot/_doc [status:201 duration:0.314s]
+2025-03-01 13:48:20,409 - ssh-honeypot - INFO - Log sent to Elasticsearch
+2025-03-01 13:48:20,477 - paramiko.transport - INFO - Connected (version 2.0, client paramiko_3.5.1)
+2025-03-01 13:48:20,483 - paramiko.transport - INFO - Auth rejected (publickey).
+2025-03-01 13:48:20,484 - paramiko.transport - INFO - Auth rejected (publickey).
+2025-03-01 13:48:20,484 - ssh-honeypot - INFO - Authentication attempt: 127.0.0.1 - invalid_user:invalid_pass
+2025-03-01 13:48:20,809 - elastic_transport.transport - INFO - POST https://b2e7e5b202d84e938f7e48f40dd02ef2.us-central1.gcp.cloud.es.io:443/ssh-honeypot/_doc [status:201 duration:0.315s]
+2025-03-01 13:48:20,809 - ssh-honeypot - INFO - Log sent to Elasticsearch
+2025-03-01 13:48:20,810 - paramiko.transport - INFO - Auth rejected (password).
+2025-03-01 13:48:20,811 - ssh-honeypot - INFO - No channel from 127.0.0.1:56863
+2025-03-01 13:48:21,144 - ssh-honeypot - INFO - Connection from: 127.0.0.1:56866
+2025-03-01 13:48:21,496 - elastic_transport.transport - INFO - POST https://b2e7e5b202d84e938f7e48f40dd02ef2.us-central1.gcp.cloud.es.io:443/ssh-honeypot/_doc [status:201 duration:0.330s]
+2025-03-01 13:48:21,496 - ssh-honeypot - INFO - Log sent to Elasticsearch
+2025-03-01 13:48:21,567 - paramiko.transport - INFO - Connected (version 2.0, client paramiko_3.5.1)
+2025-03-01 13:48:21,573 - paramiko.transport - INFO - Auth rejected (publickey).
+2025-03-01 13:48:21,574 - paramiko.transport - INFO - Auth rejected (publickey).
+2025-03-01 13:48:21,574 - ssh-honeypot - INFO - Authentication attempt: 127.0.0.1 - invalid_user:invalid_pass
+2025-03-01 13:48:21,895 - elastic_transport.transport - INFO - POST https://b2e7e5b202d84e938f7e48f40dd02ef2.us-central1.gcp.cloud.es.io:443/ssh-honeypot/_doc [status:201 duration:0.311s]
+2025-03-01 13:48:21,895 - ssh-honeypot - INFO - Log sent to Elasticsearch
+2025-03-01 13:48:21,896 - paramiko.transport - INFO - Auth rejected (password).
+2025-03-01 13:48:21,897 - ssh-honeypot - INFO - No channel from 127.0.0.1:56866
+2025-03-01 13:48:22,046 - ssh-honeypot - INFO - Connection from: 127.0.0.1:56869
+2025-03-01 13:48:22,400 - elastic_transport.transport - INFO - POST https://b2e7e5b202d84e938f7e48f40dd02ef2.us-central1.gcp.cloud.es.io:443/ssh-honeypot/_doc [status:201 duration:0.332s]
+2025-03-01 13:48:22,400 - ssh-honeypot - INFO - Log sent to Elasticsearch
+2025-03-01 13:48:22,470 - paramiko.transport - INFO - Connected (version 2.0, client paramiko_3.5.1)
+2025-03-01 13:48:22,476 - paramiko.transport - INFO - Auth rejected (publickey).
+2025-03-01 13:48:22,477 - paramiko.transport - INFO - Auth rejected (publickey).
+2025-03-01 13:48:22,477 - ssh-honeypot - INFO - Authentication attempt: 127.0.0.1 - invalid_user:invalid_pass
+2025-03-01 13:48:22,835 - elastic_transport.transport - INFO - POST https://b2e7e5b202d84e938f7e48f40dd02ef2.us-central1.gcp.cloud.es.io:443/ssh-honeypot/_doc [status:201 duration:0.348s]
+2025-03-01 13:48:22,835 - ssh-honeypot - INFO - Log sent to Elasticsearch
+2025-03-01 13:48:22,836 - paramiko.transport - INFO - Auth rejected (password).
+2025-03-01 13:48:22,837 - ssh-honeypot - INFO - No channel from 127.0.0.1:56869
+2025-03-01 13:48:23,150 - ssh-honeypot - INFO - Connection from: 127.0.0.1:56872
+2025-03-01 13:48:23,496 - elastic_transport.transport - INFO - POST https://b2e7e5b202d84e938f7e48f40dd02ef2.us-central1.gcp.cloud.es.io:443/ssh-honeypot/_doc [status:201 duration:0.328s]
+2025-03-01 13:48:23,496 - ssh-honeypot - INFO - Log sent to Elasticsearch
+2025-03-01 13:48:23,562 - paramiko.transport - INFO - Connected (version 2.0, client paramiko_3.5.1)
+2025-03-01 13:48:23,568 - paramiko.transport - INFO - Auth rejected (publickey).
+2025-03-01 13:48:23,569 - paramiko.transport - INFO - Auth rejected (publickey).
+2025-03-01 13:48:23,569 - ssh-honeypot - INFO - Authentication attempt: 127.0.0.1 - invalid_user:invalid_pass
+2025-03-01 13:48:23,895 - elastic_transport.transport - INFO - POST https://b2e7e5b202d84e938f7e48f40dd02ef2.us-central1.gcp.cloud.es.io:443/ssh-honeypot/_doc [status:201 duration:0.316s]
+2025-03-01 13:48:23,895 - ssh-honeypot - INFO - Log sent to Elasticsearch
+2025-03-01 13:48:23,895 - paramiko.transport - INFO - Auth rejected (password).
+2025-03-01 13:48:23,897 - ssh-honeypot - INFO - No channel from 127.0.0.1:56872
+2025-03-01 13:48:24,228 - ssh-honeypot - INFO - Connection from: 127.0.0.1:56875
+2025-03-01 13:48:24,561 - elastic_transport.transport - INFO - POST https://b2e7e5b202d84e938f7e48f40dd02ef2.us-central1.gcp.cloud.es.io:443/ssh-honeypot/_doc [status:201 duration:0.313s]
+2025-03-01 13:48:24,561 - ssh-honeypot - INFO - Log sent to Elasticsearch
+2025-03-01 13:48:24,631 - paramiko.transport - INFO - Connected (version 2.0, client paramiko_3.5.1)
+2025-03-01 13:48:24,637 - paramiko.transport - INFO - Auth rejected (publickey).
+2025-03-01 13:48:24,638 - paramiko.transport - INFO - Auth rejected (publickey).
+2025-03-01 13:48:24,638 - ssh-honeypot - INFO - Authentication attempt: 127.0.0.1 - invalid_user:invalid_pass
+2025-03-01 13:48:24,975 - elastic_transport.transport - INFO - POST https://b2e7e5b202d84e938f7e48f40dd02ef2.us-central1.gcp.cloud.es.io:443/ssh-honeypot/_doc [status:201 duration:0.328s]
+2025-03-01 13:48:24,976 - ssh-honeypot - INFO - Log sent to Elasticsearch
+2025-03-01 13:48:24,976 - paramiko.transport - INFO - Auth rejected (password).
+2025-03-01 13:48:24,978 - ssh-honeypot - INFO - No channel from 127.0.0.1:56875
+2025-03-01 13:48:25,371 - ssh-honeypot - INFO - Connection from: 127.0.0.1:56878
+2025-03-01 13:48:25,732 - elastic_transport.transport - INFO - POST https://b2e7e5b202d84e938f7e48f40dd02ef2.us-central1.gcp.cloud.es.io:443/ssh-honeypot/_doc [status:201 duration:0.336s]
+2025-03-01 13:48:25,733 - ssh-honeypot - INFO - Log sent to Elasticsearch
+2025-03-01 13:48:25,801 - paramiko.transport - INFO - Connected (version 2.0, client paramiko_3.5.1)
+2025-03-01 13:48:25,807 - paramiko.transport - INFO - Auth rejected (publickey).
+2025-03-01 13:48:25,808 - paramiko.transport - INFO - Auth rejected (publickey).
+2025-03-01 13:48:25,808 - ssh-honeypot - INFO - Authentication attempt: 127.0.0.1 - invalid_user:invalid_pass
+2025-03-01 13:48:26,135 - elastic_transport.transport - INFO - POST https://b2e7e5b202d84e938f7e48f40dd02ef2.us-central1.gcp.cloud.es.io:443/ssh-honeypot/_doc [status:201 duration:0.317s]
+2025-03-01 13:48:26,135 - ssh-honeypot - INFO - Log sent to Elasticsearch
+2025-03-01 13:48:26,135 - paramiko.transport - INFO - Auth rejected (password).
+2025-03-01 13:48:26,137 - ssh-honeypot - INFO - No channel from 127.0.0.1:56878
+2025-03-01 13:48:26,329 - ssh-honeypot - INFO - Connection from: 127.0.0.1:56881
+2025-03-01 13:48:26,690 - elastic_transport.transport - INFO - POST https://b2e7e5b202d84e938f7e48f40dd02ef2.us-central1.gcp.cloud.es.io:443/ssh-honeypot/_doc [status:201 duration:0.341s]
+2025-03-01 13:48:26,691 - ssh-honeypot - INFO - Log sent to Elasticsearch
+2025-03-01 13:48:26,752 - paramiko.transport - INFO - Connected (version 2.0, client paramiko_3.5.1)
+2025-03-01 13:48:26,759 - paramiko.transport - INFO - Auth rejected (publickey).
+2025-03-01 13:48:26,760 - paramiko.transport - INFO - Auth rejected (publickey).
+2025-03-01 13:48:26,760 - ssh-honeypot - INFO - Authentication attempt: 127.0.0.1 - invalid_user:invalid_pass
+2025-03-01 13:48:27,093 - elastic_transport.transport - INFO - POST https://b2e7e5b202d84e938f7e48f40dd02ef2.us-central1.gcp.cloud.es.io:443/ssh-honeypot/_doc [status:201 duration:0.324s]
+2025-03-01 13:48:27,094 - ssh-honeypot - INFO - Log sent to Elasticsearch
+2025-03-01 13:48:27,094 - paramiko.transport - INFO - Auth rejected (password).
+2025-03-01 13:48:27,095 - ssh-honeypot - INFO - No channel from 127.0.0.1:56881
+2025-03-01 13:48:27,278 - ssh-honeypot - INFO - Connection from: 127.0.0.1:56884
+2025-03-01 13:48:27,652 - elastic_transport.transport - INFO - POST https://b2e7e5b202d84e938f7e48f40dd02ef2.us-central1.gcp.cloud.es.io:443/ssh-honeypot/_doc [status:201 duration:0.353s]
+2025-03-01 13:48:27,652 - ssh-honeypot - INFO - Log sent to Elasticsearch
+2025-03-01 13:48:27,720 - paramiko.transport - INFO - Connected (version 2.0, client paramiko_3.5.1)
+2025-03-01 13:48:27,726 - paramiko.transport - INFO - Auth rejected (publickey).
+2025-03-01 13:48:27,726 - paramiko.transport - INFO - Auth rejected (publickey).
+2025-03-01 13:48:27,727 - ssh-honeypot - INFO - Authentication attempt: 127.0.0.1 - invalid_user:invalid_pass
+2025-03-01 13:48:28,057 - elastic_transport.transport - INFO - POST https://b2e7e5b202d84e938f7e48f40dd02ef2.us-central1.gcp.cloud.es.io:443/ssh-honeypot/_doc [status:201 duration:0.320s]
+2025-03-01 13:48:28,057 - ssh-honeypot - INFO - Log sent to Elasticsearch
+2025-03-01 13:48:28,057 - paramiko.transport - INFO - Auth rejected (password).
+2025-03-01 13:48:28,059 - ssh-honeypot - INFO - No channel from 127.0.0.1:56884
+2025-03-01 13:48:28,268 - ssh-honeypot - INFO - Connection from: 127.0.0.1:56887
+2025-03-01 13:48:28,618 - elastic_transport.transport - INFO - POST https://b2e7e5b202d84e938f7e48f40dd02ef2.us-central1.gcp.cloud.es.io:443/ssh-honeypot/_doc [status:201 duration:0.328s]
+2025-03-01 13:48:28,619 - ssh-honeypot - INFO - Log sent to Elasticsearch
+2025-03-01 13:48:28,687 - paramiko.transport - INFO - Connected (version 2.0, client paramiko_3.5.1)
+2025-03-01 13:48:28,693 - paramiko.transport - INFO - Auth rejected (publickey).
+2025-03-01 13:48:28,694 - paramiko.transport - INFO - Auth rejected (publickey).
+2025-03-01 13:48:28,695 - ssh-honeypot - INFO - Authentication attempt: 127.0.0.1 - invalid_user:invalid_pass
+2025-03-01 13:48:29,015 - elastic_transport.transport - INFO - POST https://b2e7e5b202d84e938f7e48f40dd02ef2.us-central1.gcp.cloud.es.io:443/ssh-honeypot/_doc [status:201 duration:0.311s]
+2025-03-01 13:48:29,015 - ssh-honeypot - INFO - Log sent to Elasticsearch
+2025-03-01 13:48:29,016 - paramiko.transport - INFO - Auth rejected (password).
+2025-03-01 13:48:29,017 - ssh-honeypot - INFO - No channel from 127.0.0.1:56887
+2025-03-01 13:48:29,202 - ssh-honeypot - INFO - Connection from: 127.0.0.1:56890
+2025-03-01 13:48:29,592 - elastic_transport.transport - INFO - POST https://b2e7e5b202d84e938f7e48f40dd02ef2.us-central1.gcp.cloud.es.io:443/ssh-honeypot/_doc [status:201 duration:0.366s]
+2025-03-01 13:48:29,592 - ssh-honeypot - INFO - Log sent to Elasticsearch
+2025-03-01 13:48:29,662 - paramiko.transport - INFO - Connected (version 2.0, client paramiko_3.5.1)
+2025-03-01 13:48:29,668 - paramiko.transport - INFO - Auth rejected (publickey).
+2025-03-01 13:48:29,669 - paramiko.transport - INFO - Auth rejected (publickey).
+2025-03-01 13:48:29,669 - ssh-honeypot - INFO - Authentication attempt: 127.0.0.1 - invalid_user:invalid_pass
+2025-03-01 13:48:30,007 - elastic_transport.transport - INFO - POST https://b2e7e5b202d84e938f7e48f40dd02ef2.us-central1.gcp.cloud.es.io:443/ssh-honeypot/_doc [status:201 duration:0.329s]
+2025-03-01 13:48:30,008 - ssh-honeypot - INFO - Log sent to Elasticsearch
+2025-03-01 13:48:30,008 - paramiko.transport - INFO - Auth rejected (password).
+2025-03-01 13:48:30,010 - ssh-honeypot - INFO - No channel from 127.0.0.1:56890
+2025-03-01 13:48:30,316 - ssh-honeypot - INFO - Connection from: 127.0.0.1:56893
+2025-03-01 13:48:30,672 - elastic_transport.transport - INFO - POST https://b2e7e5b202d84e938f7e48f40dd02ef2.us-central1.gcp.cloud.es.io:443/ssh-honeypot/_doc [status:201 duration:0.335s]
+2025-03-01 13:48:30,673 - ssh-honeypot - INFO - Log sent to Elasticsearch
+2025-03-01 13:48:30,735 - paramiko.transport - INFO - Connected (version 2.0, client paramiko_3.5.1)
+2025-03-01 13:48:30,741 - paramiko.transport - INFO - Auth rejected (publickey).
+2025-03-01 13:48:30,741 - paramiko.transport - INFO - Auth rejected (publickey).
+2025-03-01 13:48:30,742 - ssh-honeypot - INFO - Authentication attempt: 127.0.0.1 - invalid_user:invalid_pass
+2025-03-01 13:48:31,062 - elastic_transport.transport - INFO - POST https://b2e7e5b202d84e938f7e48f40dd02ef2.us-central1.gcp.cloud.es.io:443/ssh-honeypot/_doc [status:201 duration:0.311s]
+2025-03-01 13:48:31,063 - ssh-honeypot - INFO - Log sent to Elasticsearch
+2025-03-01 13:48:31,063 - paramiko.transport - INFO - Auth rejected (password).
+2025-03-01 13:48:31,064 - ssh-honeypot - INFO - No channel from 127.0.0.1:56893
+2025-03-01 13:48:31,476 - ssh-honeypot - INFO - Connection from: 127.0.0.1:56896
+2025-03-01 13:48:31,834 - elastic_transport.transport - INFO - POST https://b2e7e5b202d84e938f7e48f40dd02ef2.us-central1.gcp.cloud.es.io:443/ssh-honeypot/_doc [status:201 duration:0.339s]
+2025-03-01 13:48:31,834 - ssh-honeypot - INFO - Log sent to Elasticsearch
+2025-03-01 13:48:31,901 - paramiko.transport - INFO - Connected (version 2.0, client paramiko_3.5.1)
+2025-03-01 13:48:31,908 - paramiko.transport - INFO - Auth rejected (publickey).
+2025-03-01 13:48:31,909 - paramiko.transport - INFO - Auth rejected (publickey).
+2025-03-01 13:48:31,909 - ssh-honeypot - INFO - Authentication attempt: 127.0.0.1 - invalid_user:invalid_pass
+2025-03-01 13:48:32,236 - elastic_transport.transport - INFO - POST https://b2e7e5b202d84e938f7e48f40dd02ef2.us-central1.gcp.cloud.es.io:443/ssh-honeypot/_doc [status:201 duration:0.318s]
+2025-03-01 13:48:32,236 - ssh-honeypot - INFO - Log sent to Elasticsearch
+2025-03-01 13:48:32,236 - paramiko.transport - INFO - Auth rejected (password).
+2025-03-01 13:48:32,238 - ssh-honeypot - INFO - No channel from 127.0.0.1:56896
+2025-03-01 13:48:32,423 - ssh-honeypot - INFO - Connection from: 127.0.0.1:56899
+2025-03-01 13:48:32,773 - elastic_transport.transport - INFO - POST https://b2e7e5b202d84e938f7e48f40dd02ef2.us-central1.gcp.cloud.es.io:443/ssh-honeypot/_doc [status:201 duration:0.328s]
+2025-03-01 13:48:32,773 - ssh-honeypot - INFO - Log sent to Elasticsearch
+2025-03-01 13:48:32,843 - paramiko.transport - INFO - Connected (version 2.0, client paramiko_3.5.1)
+2025-03-01 13:48:32,849 - paramiko.transport - INFO - Auth rejected (publickey).
+2025-03-01 13:48:32,850 - paramiko.transport - INFO - Auth rejected (publickey).
+2025-03-01 13:48:32,850 - ssh-honeypot - INFO - Authentication attempt: 127.0.0.1 - invalid_user:invalid_pass
+2025-03-01 13:48:33,191 - elastic_transport.transport - INFO - POST https://b2e7e5b202d84e938f7e48f40dd02ef2.us-central1.gcp.cloud.es.io:443/ssh-honeypot/_doc [status:201 duration:0.331s]
+2025-03-01 13:48:33,192 - ssh-honeypot - INFO - Log sent to Elasticsearch
+2025-03-01 13:48:33,192 - paramiko.transport - INFO - Auth rejected (password).
+2025-03-01 13:48:33,193 - ssh-honeypot - INFO - No channel from 127.0.0.1:56899
+2025-03-01 13:48:33,446 - ssh-honeypot - INFO - Connection from: 127.0.0.1:56902
+2025-03-01 13:48:33,805 - elastic_transport.transport - INFO - POST https://b2e7e5b202d84e938f7e48f40dd02ef2.us-central1.gcp.cloud.es.io:443/ssh-honeypot/_doc [status:201 duration:0.338s]
+2025-03-01 13:48:33,805 - ssh-honeypot - INFO - Log sent to Elasticsearch
+2025-03-01 13:48:33,867 - paramiko.transport - INFO - Connected (version 2.0, client paramiko_3.5.1)
+2025-03-01 13:48:33,873 - paramiko.transport - INFO - Auth rejected (publickey).
+2025-03-01 13:48:33,874 - paramiko.transport - INFO - Auth rejected (publickey).
+2025-03-01 13:48:33,874 - ssh-honeypot - INFO - Authentication attempt: 127.0.0.1 - invalid_user:invalid_pass
+2025-03-01 13:48:34,210 - elastic_transport.transport - INFO - POST https://b2e7e5b202d84e938f7e48f40dd02ef2.us-central1.gcp.cloud.es.io:443/ssh-honeypot/_doc [status:201 duration:0.326s]
+2025-03-01 13:48:34,210 - ssh-honeypot - INFO - Log sent to Elasticsearch
+2025-03-01 13:48:34,210 - paramiko.transport - INFO - Auth rejected (password).
+2025-03-01 13:48:34,211 - ssh-honeypot - INFO - No channel from 127.0.0.1:56902
+2025-03-01 13:48:34,409 - ssh-honeypot - INFO - Connection from: 127.0.0.1:56905
+2025-03-01 13:48:34,760 - elastic_transport.transport - INFO - POST https://b2e7e5b202d84e938f7e48f40dd02ef2.us-central1.gcp.cloud.es.io:443/ssh-honeypot/_doc [status:201 duration:0.329s]
+2025-03-01 13:48:34,760 - ssh-honeypot - INFO - Log sent to Elasticsearch
+2025-03-01 13:48:34,825 - paramiko.transport - INFO - Connected (version 2.0, client paramiko_3.5.1)
+2025-03-01 13:48:34,831 - paramiko.transport - INFO - Auth rejected (publickey).
+2025-03-01 13:48:34,832 - paramiko.transport - INFO - Auth rejected (publickey).
+2025-03-01 13:48:34,832 - ssh-honeypot - INFO - Authentication attempt: 127.0.0.1 - invalid_user:invalid_pass
+2025-03-01 13:48:35,171 - elastic_transport.transport - INFO - POST https://b2e7e5b202d84e938f7e48f40dd02ef2.us-central1.gcp.cloud.es.io:443/ssh-honeypot/_doc [status:201 duration:0.330s]
+2025-03-01 13:48:35,171 - ssh-honeypot - INFO - Log sent to Elasticsearch
+2025-03-01 13:48:35,171 - paramiko.transport - INFO - Auth rejected (password).
+2025-03-01 13:48:35,173 - ssh-honeypot - INFO - No channel from 127.0.0.1:56905
+2025-03-01 13:48:35,497 - ssh-honeypot - INFO - Connection from: 127.0.0.1:56908
+2025-03-01 13:48:35,850 - elastic_transport.transport - INFO - POST https://b2e7e5b202d84e938f7e48f40dd02ef2.us-central1.gcp.cloud.es.io:443/ssh-honeypot/_doc [status:201 duration:0.330s]
+2025-03-01 13:48:35,851 - ssh-honeypot - INFO - Log sent to Elasticsearch
+2025-03-01 13:48:35,921 - paramiko.transport - INFO - Connected (version 2.0, client paramiko_3.5.1)
+2025-03-01 13:48:35,927 - paramiko.transport - INFO - Auth rejected (publickey).
+2025-03-01 13:48:35,927 - paramiko.transport - INFO - Auth rejected (publickey).
+2025-03-01 13:48:35,928 - ssh-honeypot - INFO - Authentication attempt: 127.0.0.1 - invalid_user:invalid_pass
+2025-03-01 13:48:36,263 - elastic_transport.transport - INFO - POST https://b2e7e5b202d84e938f7e48f40dd02ef2.us-central1.gcp.cloud.es.io:443/ssh-honeypot/_doc [status:201 duration:0.326s]
+2025-03-01 13:48:36,264 - ssh-honeypot - INFO - Log sent to Elasticsearch
+2025-03-01 13:48:36,264 - paramiko.transport - INFO - Auth rejected (password).
+2025-03-01 13:48:36,266 - ssh-honeypot - INFO - No channel from 127.0.0.1:56908
+2025-03-01 13:48:36,641 - ssh-honeypot - INFO - Connection from: 127.0.0.1:56911
+2025-03-01 13:48:37,001 - elastic_transport.transport - INFO - POST https://b2e7e5b202d84e938f7e48f40dd02ef2.us-central1.gcp.cloud.es.io:443/ssh-honeypot/_doc [status:201 duration:0.338s]
+2025-03-01 13:48:37,001 - ssh-honeypot - INFO - Log sent to Elasticsearch
+2025-03-01 13:48:37,068 - paramiko.transport - INFO - Connected (version 2.0, client paramiko_3.5.1)
+2025-03-01 13:48:37,074 - paramiko.transport - INFO - Auth rejected (publickey).
+2025-03-01 13:48:37,074 - paramiko.transport - INFO - Auth rejected (publickey).
+2025-03-01 13:48:37,075 - ssh-honeypot - INFO - Authentication attempt: 127.0.0.1 - invalid_user:invalid_pass
+2025-03-01 13:48:37,409 - elastic_transport.transport - INFO - POST https://b2e7e5b202d84e938f7e48f40dd02ef2.us-central1.gcp.cloud.es.io:443/ssh-honeypot/_doc [status:201 duration:0.326s]
+2025-03-01 13:48:37,410 - ssh-honeypot - INFO - Log sent to Elasticsearch
+2025-03-01 13:48:37,410 - paramiko.transport - INFO - Auth rejected (password).
+2025-03-01 13:48:37,411 - ssh-honeypot - INFO - No channel from 127.0.0.1:56911
+2025-03-01 13:48:37,826 - ssh-honeypot - INFO - Connection from: 127.0.0.1:56914
+2025-03-01 13:48:38,177 - elastic_transport.transport - INFO - POST https://b2e7e5b202d84e938f7e48f40dd02ef2.us-central1.gcp.cloud.es.io:443/ssh-honeypot/_doc [status:201 duration:0.331s]
+2025-03-01 13:48:38,177 - ssh-honeypot - INFO - Log sent to Elasticsearch
+2025-03-01 13:48:38,248 - paramiko.transport - INFO - Connected (version 2.0, client paramiko_3.5.1)
+2025-03-01 13:48:38,254 - paramiko.transport - INFO - Auth rejected (publickey).
+2025-03-01 13:48:38,255 - paramiko.transport - INFO - Auth rejected (publickey).
+2025-03-01 13:48:38,255 - ssh-honeypot - INFO - Authentication attempt: 127.0.0.1 - invalid_user:invalid_pass
+2025-03-01 13:48:38,577 - elastic_transport.transport - INFO - POST https://b2e7e5b202d84e938f7e48f40dd02ef2.us-central1.gcp.cloud.es.io:443/ssh-honeypot/_doc [status:201 duration:0.312s]
+2025-03-01 13:48:38,577 - ssh-honeypot - INFO - Log sent to Elasticsearch
+2025-03-01 13:48:38,578 - paramiko.transport - INFO - Auth rejected (password).
+2025-03-01 13:48:38,579 - ssh-honeypot - INFO - No channel from 127.0.0.1:56914
+2025-03-01 13:48:38,949 - ssh-honeypot - INFO - Connection from: 127.0.0.1:56917
+2025-03-01 13:48:39,302 - elastic_transport.transport - INFO - POST https://b2e7e5b202d84e938f7e48f40dd02ef2.us-central1.gcp.cloud.es.io:443/ssh-honeypot/_doc [status:201 duration:0.333s]
+2025-03-01 13:48:39,303 - ssh-honeypot - INFO - Log sent to Elasticsearch
+2025-03-01 13:48:39,373 - paramiko.transport - INFO - Connected (version 2.0, client paramiko_3.5.1)
+2025-03-01 13:48:39,379 - paramiko.transport - INFO - Auth rejected (publickey).
+2025-03-01 13:48:39,380 - paramiko.transport - INFO - Auth rejected (publickey).
+2025-03-01 13:48:39,380 - ssh-honeypot - INFO - Authentication attempt: 127.0.0.1 - invalid_user:invalid_pass
+2025-03-01 13:48:39,710 - elastic_transport.transport - INFO - POST https://b2e7e5b202d84e938f7e48f40dd02ef2.us-central1.gcp.cloud.es.io:443/ssh-honeypot/_doc [status:201 duration:0.321s]
+2025-03-01 13:48:39,711 - ssh-honeypot - INFO - Log sent to Elasticsearch
+2025-03-01 13:48:39,711 - paramiko.transport - INFO - Auth rejected (password).
+2025-03-01 13:48:39,712 - ssh-honeypot - INFO - No channel from 127.0.0.1:56917
+2025-03-01 13:48:39,871 - ssh-honeypot - INFO - Connection from: 127.0.0.1:56920
+2025-03-01 13:48:40,233 - elastic_transport.transport - INFO - POST https://b2e7e5b202d84e938f7e48f40dd02ef2.us-central1.gcp.cloud.es.io:443/ssh-honeypot/_doc [status:201 duration:0.340s]
+2025-03-01 13:48:40,233 - ssh-honeypot - INFO - Log sent to Elasticsearch
+2025-03-01 13:48:40,299 - paramiko.transport - INFO - Connected (version 2.0, client paramiko_3.5.1)
+2025-03-01 13:48:40,305 - paramiko.transport - INFO - Auth rejected (publickey).
+2025-03-01 13:48:40,306 - paramiko.transport - INFO - Auth rejected (publickey).
+2025-03-01 13:48:40,306 - ssh-honeypot - INFO - Authentication attempt: 127.0.0.1 - invalid_user:invalid_pass
+2025-03-01 13:48:40,636 - elastic_transport.transport - INFO - POST https://b2e7e5b202d84e938f7e48f40dd02ef2.us-central1.gcp.cloud.es.io:443/ssh-honeypot/_doc [status:201 duration:0.320s]
+2025-03-01 13:48:40,636 - ssh-honeypot - INFO - Log sent to Elasticsearch
+2025-03-01 13:48:40,636 - paramiko.transport - INFO - Auth rejected (password).
+2025-03-01 13:48:40,638 - ssh-honeypot - INFO - No channel from 127.0.0.1:56920
+2025-03-01 13:48:40,873 - ssh-honeypot - INFO - Connection from: 127.0.0.1:56923
+2025-03-01 13:48:41,216 - elastic_transport.transport - INFO - POST https://b2e7e5b202d84e938f7e48f40dd02ef2.us-central1.gcp.cloud.es.io:443/ssh-honeypot/_doc [status:201 duration:0.324s]
+2025-03-01 13:48:41,216 - ssh-honeypot - INFO - Log sent to Elasticsearch
+2025-03-01 13:48:41,282 - paramiko.transport - INFO - Connected (version 2.0, client paramiko_3.5.1)
+2025-03-01 13:48:41,288 - paramiko.transport - INFO - Auth rejected (publickey).
+2025-03-01 13:48:41,289 - paramiko.transport - INFO - Auth rejected (publickey).
+2025-03-01 13:48:41,289 - ssh-honeypot - INFO - Authentication attempt: 127.0.0.1 - invalid_user:invalid_pass
+2025-03-01 13:48:41,627 - elastic_transport.transport - INFO - POST https://b2e7e5b202d84e938f7e48f40dd02ef2.us-central1.gcp.cloud.es.io:443/ssh-honeypot/_doc [status:201 duration:0.329s]
+2025-03-01 13:48:41,628 - ssh-honeypot - INFO - Log sent to Elasticsearch
+2025-03-01 13:48:41,628 - paramiko.transport - INFO - Auth rejected (password).
+2025-03-01 13:48:41,629 - ssh-honeypot - INFO - No channel from 127.0.0.1:56923
+2025-03-01 13:48:42,043 - ssh-honeypot - INFO - Connection from: 127.0.0.1:56926
+2025-03-01 13:48:42,400 - elastic_transport.transport - INFO - POST https://b2e7e5b202d84e938f7e48f40dd02ef2.us-central1.gcp.cloud.es.io:443/ssh-honeypot/_doc [status:201 duration:0.336s]
+2025-03-01 13:48:42,400 - ssh-honeypot - INFO - Log sent to Elasticsearch
+2025-03-01 13:48:42,471 - paramiko.transport - INFO - Connected (version 2.0, client paramiko_3.5.1)
+2025-03-01 13:48:42,477 - paramiko.transport - INFO - Auth rejected (publickey).
+2025-03-01 13:48:42,477 - paramiko.transport - INFO - Auth rejected (publickey).
+2025-03-01 13:48:42,478 - ssh-honeypot - INFO - Authentication attempt: 127.0.0.1 - invalid_user:invalid_pass
+2025-03-01 13:48:42,808 - elastic_transport.transport - INFO - POST https://b2e7e5b202d84e938f7e48f40dd02ef2.us-central1.gcp.cloud.es.io:443/ssh-honeypot/_doc [status:201 duration:0.321s]
+2025-03-01 13:48:42,808 - ssh-honeypot - INFO - Log sent to Elasticsearch
+2025-03-01 13:48:42,808 - paramiko.transport - INFO - Auth rejected (password).
+2025-03-01 13:48:42,809 - ssh-honeypot - INFO - No channel from 127.0.0.1:56926
+2025-03-01 13:48:43,306 - ssh-honeypot - INFO - Connection from: 127.0.0.1:56929
+2025-03-01 13:48:43,721 - elastic_transport.transport - INFO - POST https://b2e7e5b202d84e938f7e48f40dd02ef2.us-central1.gcp.cloud.es.io:443/ssh-honeypot/_doc [status:201 duration:0.394s]
+2025-03-01 13:48:43,721 - ssh-honeypot - INFO - Log sent to Elasticsearch
+2025-03-01 13:48:43,788 - paramiko.transport - INFO - Connected (version 2.0, client paramiko_3.5.1)
+2025-03-01 13:48:43,794 - paramiko.transport - INFO - Auth rejected (publickey).
+2025-03-01 13:48:43,795 - paramiko.transport - INFO - Auth rejected (publickey).
+2025-03-01 13:48:43,795 - ssh-honeypot - INFO - Authentication attempt: 127.0.0.1 - invalid_user:invalid_pass
+2025-03-01 13:48:44,119 - elastic_transport.transport - INFO - POST https://b2e7e5b202d84e938f7e48f40dd02ef2.us-central1.gcp.cloud.es.io:443/ssh-honeypot/_doc [status:201 duration:0.313s]
+2025-03-01 13:48:44,119 - ssh-honeypot - INFO - Log sent to Elasticsearch
+2025-03-01 13:48:44,120 - paramiko.transport - INFO - Auth rejected (password).
+2025-03-01 13:48:44,121 - ssh-honeypot - INFO - No channel from 127.0.0.1:56929
+2025-03-01 13:48:44,553 - ssh-honeypot - INFO - Connection from: 127.0.0.1:56932
+2025-03-01 13:48:44,906 - elastic_transport.transport - INFO - POST https://b2e7e5b202d84e938f7e48f40dd02ef2.us-central1.gcp.cloud.es.io:443/ssh-honeypot/_doc [status:201 duration:0.329s]
+2025-03-01 13:48:44,906 - ssh-honeypot - INFO - Log sent to Elasticsearch
+2025-03-01 13:48:44,972 - paramiko.transport - INFO - Connected (version 2.0, client paramiko_3.5.1)
+2025-03-01 13:48:44,978 - paramiko.transport - INFO - Auth rejected (publickey).
+2025-03-01 13:48:44,979 - paramiko.transport - INFO - Auth rejected (publickey).
+2025-03-01 13:48:44,979 - ssh-honeypot - INFO - Authentication attempt: 127.0.0.1 - invalid_user:invalid_pass
+2025-03-01 13:48:45,317 - elastic_transport.transport - INFO - POST https://b2e7e5b202d84e938f7e48f40dd02ef2.us-central1.gcp.cloud.es.io:443/ssh-honeypot/_doc [status:201 duration:0.329s]
+2025-03-01 13:48:45,318 - ssh-honeypot - INFO - Log sent to Elasticsearch
+2025-03-01 13:48:45,318 - paramiko.transport - INFO - Auth rejected (password).
+2025-03-01 13:48:45,319 - ssh-honeypot - INFO - No channel from 127.0.0.1:56932
+2025-03-01 13:48:45,539 - ssh-honeypot - INFO - Connection from: 127.0.0.1:56935
+2025-03-01 13:48:45,895 - elastic_transport.transport - INFO - POST https://b2e7e5b202d84e938f7e48f40dd02ef2.us-central1.gcp.cloud.es.io:443/ssh-honeypot/_doc [status:201 duration:0.336s]
+2025-03-01 13:48:45,896 - ssh-honeypot - INFO - Log sent to Elasticsearch
+2025-03-01 13:48:45,962 - paramiko.transport - INFO - Connected (version 2.0, client paramiko_3.5.1)
+2025-03-01 13:48:45,968 - paramiko.transport - INFO - Auth rejected (publickey).
+2025-03-01 13:48:45,968 - paramiko.transport - INFO - Auth rejected (publickey).
+2025-03-01 13:48:45,969 - ssh-honeypot - INFO - Authentication attempt: 127.0.0.1 - invalid_user:invalid_pass
+2025-03-01 13:48:46,305 - elastic_transport.transport - INFO - POST https://b2e7e5b202d84e938f7e48f40dd02ef2.us-central1.gcp.cloud.es.io:443/ssh-honeypot/_doc [status:201 duration:0.327s]
+2025-03-01 13:48:46,306 - ssh-honeypot - INFO - Log sent to Elasticsearch
+2025-03-01 13:48:46,306 - paramiko.transport - INFO - Auth rejected (password).
+2025-03-01 13:48:46,307 - ssh-honeypot - INFO - No channel from 127.0.0.1:56935
+2025-03-01 13:48:46,489 - ssh-honeypot - INFO - Connection from: 127.0.0.1:56938
+2025-03-01 13:48:46,848 - elastic_transport.transport - INFO - POST https://b2e7e5b202d84e938f7e48f40dd02ef2.us-central1.gcp.cloud.es.io:443/ssh-honeypot/_doc [status:201 duration:0.336s]
+2025-03-01 13:48:46,849 - ssh-honeypot - INFO - Log sent to Elasticsearch
+2025-03-01 13:48:46,918 - paramiko.transport - INFO - Connected (version 2.0, client paramiko_3.5.1)
+2025-03-01 13:48:46,924 - paramiko.transport - INFO - Auth rejected (publickey).
+2025-03-01 13:48:46,925 - paramiko.transport - INFO - Auth rejected (publickey).
+2025-03-01 13:48:46,925 - ssh-honeypot - INFO - Authentication attempt: 127.0.0.1 - invalid_user:invalid_pass
+2025-03-01 13:48:47,245 - elastic_transport.transport - INFO - POST https://b2e7e5b202d84e938f7e48f40dd02ef2.us-central1.gcp.cloud.es.io:443/ssh-honeypot/_doc [status:201 duration:0.311s]
+2025-03-01 13:48:47,246 - ssh-honeypot - INFO - Log sent to Elasticsearch
+2025-03-01 13:48:47,246 - paramiko.transport - INFO - Auth rejected (password).
+2025-03-01 13:48:47,247 - ssh-honeypot - INFO - No channel from 127.0.0.1:56938
+2025-03-01 13:48:47,423 - ssh-honeypot - INFO - Connection from: 127.0.0.1:56942
+2025-03-01 13:48:47,816 - elastic_transport.transport - INFO - POST https://b2e7e5b202d84e938f7e48f40dd02ef2.us-central1.gcp.cloud.es.io:443/ssh-honeypot/_doc [status:201 duration:0.371s]
+2025-03-01 13:48:47,817 - ssh-honeypot - INFO - Log sent to Elasticsearch
+2025-03-01 13:48:47,888 - paramiko.transport - INFO - Connected (version 2.0, client paramiko_3.5.1)
+2025-03-01 13:48:47,893 - paramiko.transport - INFO - Auth rejected (publickey).
+2025-03-01 13:48:47,894 - paramiko.transport - INFO - Auth rejected (publickey).
+2025-03-01 13:48:47,894 - ssh-honeypot - INFO - Authentication attempt: 127.0.0.1 - invalid_user:invalid_pass
+2025-03-01 13:48:48,231 - elastic_transport.transport - INFO - POST https://b2e7e5b202d84e938f7e48f40dd02ef2.us-central1.gcp.cloud.es.io:443/ssh-honeypot/_doc [status:201 duration:0.328s]
+2025-03-01 13:48:48,232 - ssh-honeypot - INFO - Log sent to Elasticsearch
+2025-03-01 13:48:48,232 - paramiko.transport - INFO - Auth rejected (password).
+2025-03-01 13:48:48,233 - ssh-honeypot - INFO - No channel from 127.0.0.1:56942
+2025-03-01 13:48:48,691 - ssh-honeypot - INFO - Connection from: 127.0.0.1:56945
+2025-03-01 13:48:49,052 - elastic_transport.transport - INFO - POST https://b2e7e5b202d84e938f7e48f40dd02ef2.us-central1.gcp.cloud.es.io:443/ssh-honeypot/_doc [status:201 duration:0.340s]
+2025-03-01 13:48:49,053 - ssh-honeypot - INFO - Log sent to Elasticsearch
+2025-03-01 13:48:49,122 - paramiko.transport - INFO - Connected (version 2.0, client paramiko_3.5.1)
+2025-03-01 13:48:49,128 - paramiko.transport - INFO - Auth rejected (publickey).
+2025-03-01 13:48:49,129 - paramiko.transport - INFO - Auth rejected (publickey).
+2025-03-01 13:48:49,129 - ssh-honeypot - INFO - Authentication attempt: 127.0.0.1 - invalid_user:invalid_pass
+2025-03-01 13:48:49,465 - elastic_transport.transport - INFO - POST https://b2e7e5b202d84e938f7e48f40dd02ef2.us-central1.gcp.cloud.es.io:443/ssh-honeypot/_doc [status:201 duration:0.326s]
+2025-03-01 13:48:49,466 - ssh-honeypot - INFO - Log sent to Elasticsearch
+2025-03-01 13:48:49,466 - paramiko.transport - INFO - Auth rejected (password).
+2025-03-01 13:48:49,467 - ssh-honeypot - INFO - No channel from 127.0.0.1:56945
+2025-03-01 13:48:49,658 - ssh-honeypot - INFO - Connection from: 127.0.0.1:56948
+2025-03-01 13:48:50,016 - elastic_transport.transport - INFO - POST https://b2e7e5b202d84e938f7e48f40dd02ef2.us-central1.gcp.cloud.es.io:443/ssh-honeypot/_doc [status:201 duration:0.336s]
+2025-03-01 13:48:50,017 - ssh-honeypot - INFO - Log sent to Elasticsearch
+2025-03-01 13:48:50,080 - paramiko.transport - INFO - Connected (version 2.0, client paramiko_3.5.1)
+2025-03-01 13:48:50,086 - paramiko.transport - INFO - Auth rejected (publickey).
+2025-03-01 13:48:50,086 - paramiko.transport - INFO - Auth rejected (publickey).
+2025-03-01 13:48:50,087 - ssh-honeypot - INFO - Authentication attempt: 127.0.0.1 - invalid_user:invalid_pass
+2025-03-01 13:48:50,415 - elastic_transport.transport - INFO - POST https://b2e7e5b202d84e938f7e48f40dd02ef2.us-central1.gcp.cloud.es.io:443/ssh-honeypot/_doc [status:201 duration:0.319s]
+2025-03-01 13:48:50,415 - ssh-honeypot - INFO - Log sent to Elasticsearch
+2025-03-01 13:48:50,415 - paramiko.transport - INFO - Auth rejected (password).
+2025-03-01 13:48:50,417 - ssh-honeypot - INFO - No channel from 127.0.0.1:56948
+2025-03-01 13:48:50,864 - ssh-honeypot - INFO - Connection from: 127.0.0.1:56951
+2025-03-01 13:48:51,212 - elastic_transport.transport - INFO - POST https://b2e7e5b202d84e938f7e48f40dd02ef2.us-central1.gcp.cloud.es.io:443/ssh-honeypot/_doc [status:201 duration:0.328s]
+2025-03-01 13:48:51,213 - ssh-honeypot - INFO - Log sent to Elasticsearch
+2025-03-01 13:48:51,278 - paramiko.transport - INFO - Connected (version 2.0, client paramiko_3.5.1)
+2025-03-01 13:48:51,284 - paramiko.transport - INFO - Auth rejected (publickey).
+2025-03-01 13:48:51,285 - paramiko.transport - INFO - Auth rejected (publickey).
+2025-03-01 13:48:51,285 - ssh-honeypot - INFO - Authentication attempt: 127.0.0.1 - invalid_user:invalid_pass
+2025-03-01 13:48:51,613 - elastic_transport.transport - INFO - POST https://b2e7e5b202d84e938f7e48f40dd02ef2.us-central1.gcp.cloud.es.io:443/ssh-honeypot/_doc [status:201 duration:0.319s]
+2025-03-01 13:48:51,613 - ssh-honeypot - INFO - Log sent to Elasticsearch
+2025-03-01 13:48:51,614 - paramiko.transport - INFO - Auth rejected (password).
+2025-03-01 13:48:51,615 - ssh-honeypot - INFO - No channel from 127.0.0.1:56951
+2025-03-01 13:48:51,752 - ssh-honeypot - INFO - Connection from: 127.0.0.1:56954
+2025-03-01 13:48:52,109 - elastic_transport.transport - INFO - POST https://b2e7e5b202d84e938f7e48f40dd02ef2.us-central1.gcp.cloud.es.io:443/ssh-honeypot/_doc [status:201 duration:0.336s]
+2025-03-01 13:48:52,110 - ssh-honeypot - INFO - Log sent to Elasticsearch
+2025-03-01 13:48:52,180 - paramiko.transport - INFO - Connected (version 2.0, client paramiko_3.5.1)
+2025-03-01 13:48:52,186 - paramiko.transport - INFO - Auth rejected (publickey).
+2025-03-01 13:48:52,187 - paramiko.transport - INFO - Auth rejected (publickey).
+2025-03-01 13:48:52,187 - ssh-honeypot - INFO - Authentication attempt: 127.0.0.1 - invalid_user:invalid_pass
+2025-03-01 13:48:52,525 - elastic_transport.transport - INFO - POST https://b2e7e5b202d84e938f7e48f40dd02ef2.us-central1.gcp.cloud.es.io:443/ssh-honeypot/_doc [status:201 duration:0.328s]
+2025-03-01 13:48:52,525 - ssh-honeypot - INFO - Log sent to Elasticsearch
+2025-03-01 13:48:52,525 - paramiko.transport - INFO - Auth rejected (password).
+2025-03-01 13:48:52,527 - ssh-honeypot - INFO - No channel from 127.0.0.1:56954
+2025-03-01 13:48:53,000 - ssh-honeypot - INFO - Connection from: 127.0.0.1:56957
+2025-03-01 13:48:53,358 - elastic_transport.transport - INFO - POST https://b2e7e5b202d84e938f7e48f40dd02ef2.us-central1.gcp.cloud.es.io:443/ssh-honeypot/_doc [status:201 duration:0.337s]
+2025-03-01 13:48:53,358 - ssh-honeypot - INFO - Log sent to Elasticsearch
+2025-03-01 13:48:53,427 - paramiko.transport - INFO - Connected (version 2.0, client paramiko_3.5.1)
+2025-03-01 13:48:53,433 - paramiko.transport - INFO - Auth rejected (publickey).
+2025-03-01 13:48:53,433 - paramiko.transport - INFO - Auth rejected (publickey).
+2025-03-01 13:48:53,433 - ssh-honeypot - INFO - Authentication attempt: 127.0.0.1 - invalid_user:invalid_pass
+2025-03-01 13:48:53,761 - elastic_transport.transport - INFO - POST https://b2e7e5b202d84e938f7e48f40dd02ef2.us-central1.gcp.cloud.es.io:443/ssh-honeypot/_doc [status:201 duration:0.318s]
+2025-03-01 13:48:53,761 - ssh-honeypot - INFO - Log sent to Elasticsearch
+2025-03-01 13:48:53,762 - paramiko.transport - INFO - Auth rejected (password).
+2025-03-01 13:48:53,763 - ssh-honeypot - INFO - No channel from 127.0.0.1:56957
+2025-03-01 13:48:54,049 - ssh-honeypot - INFO - Connection from: 127.0.0.1:56960
+2025-03-01 13:48:54,407 - elastic_transport.transport - INFO - POST https://b2e7e5b202d84e938f7e48f40dd02ef2.us-central1.gcp.cloud.es.io:443/ssh-honeypot/_doc [status:201 duration:0.337s]
+2025-03-01 13:48:54,407 - ssh-honeypot - INFO - Log sent to Elasticsearch
+2025-03-01 13:48:54,472 - paramiko.transport - INFO - Connected (version 2.0, client paramiko_3.5.1)
+2025-03-01 13:48:54,478 - paramiko.transport - INFO - Auth rejected (publickey).
+2025-03-01 13:48:54,478 - paramiko.transport - INFO - Auth rejected (publickey).
+2025-03-01 13:48:54,478 - ssh-honeypot - INFO - Authentication attempt: 127.0.0.1 - invalid_user:invalid_pass
+2025-03-01 13:48:54,707 - elastic_transport.transport - INFO - POST https://b2e7e5b202d84e938f7e48f40dd02ef2.us-central1.gcp.cloud.es.io:443/ssh-honeypot/_doc [status:201 duration:0.218s]
+2025-03-01 13:48:54,707 - ssh-honeypot - INFO - Log sent to Elasticsearch
+2025-03-01 13:48:54,707 - paramiko.transport - INFO - Auth rejected (password).
+2025-03-01 13:48:54,709 - ssh-honeypot - INFO - No channel from 127.0.0.1:56960
+2025-03-01 13:48:55,093 - ssh-honeypot - INFO - Connection from: 127.0.0.1:56963
+2025-03-01 13:48:55,470 - elastic_transport.transport - INFO - POST https://b2e7e5b202d84e938f7e48f40dd02ef2.us-central1.gcp.cloud.es.io:443/ssh-honeypot/_doc [status:201 duration:0.353s]
+2025-03-01 13:48:55,470 - ssh-honeypot - INFO - Log sent to Elasticsearch
+2025-03-01 13:48:55,540 - paramiko.transport - INFO - Connected (version 2.0, client paramiko_3.5.1)
+2025-03-01 13:48:55,546 - paramiko.transport - INFO - Auth rejected (publickey).
+2025-03-01 13:48:55,547 - paramiko.transport - INFO - Auth rejected (publickey).
+2025-03-01 13:48:55,547 - ssh-honeypot - INFO - Authentication attempt: 127.0.0.1 - invalid_user:invalid_pass
+2025-03-01 13:48:55,869 - elastic_transport.transport - INFO - POST https://b2e7e5b202d84e938f7e48f40dd02ef2.us-central1.gcp.cloud.es.io:443/ssh-honeypot/_doc [status:201 duration:0.312s]
+2025-03-01 13:48:55,869 - ssh-honeypot - INFO - Log sent to Elasticsearch
+2025-03-01 13:48:55,869 - paramiko.transport - INFO - Auth rejected (password).
+2025-03-01 13:48:55,871 - ssh-honeypot - INFO - No channel from 127.0.0.1:56963
+2025-03-01 13:48:56,187 - ssh-honeypot - INFO - Connection from: 127.0.0.1:56966
+2025-03-01 13:48:56,539 - elastic_transport.transport - INFO - POST https://b2e7e5b202d84e938f7e48f40dd02ef2.us-central1.gcp.cloud.es.io:443/ssh-honeypot/_doc [status:201 duration:0.333s]
+2025-03-01 13:48:56,539 - ssh-honeypot - INFO - Log sent to Elasticsearch
+2025-03-01 13:48:56,603 - paramiko.transport - INFO - Connected (version 2.0, client paramiko_3.5.1)
+2025-03-01 13:48:56,609 - paramiko.transport - INFO - Auth rejected (publickey).
+2025-03-01 13:48:56,609 - paramiko.transport - INFO - Auth rejected (publickey).
+2025-03-01 13:48:56,610 - ssh-honeypot - INFO - Authentication attempt: 127.0.0.1 - invalid_user:invalid_pass
+2025-03-01 13:48:57,138 - elastic_transport.transport - INFO - POST https://b2e7e5b202d84e938f7e48f40dd02ef2.us-central1.gcp.cloud.es.io:443/ssh-honeypot/_doc [status:201 duration:0.519s]
+2025-03-01 13:48:57,139 - ssh-honeypot - INFO - Log sent to Elasticsearch
+2025-03-01 13:48:57,139 - paramiko.transport - INFO - Auth rejected (password).
+2025-03-01 13:48:57,141 - ssh-honeypot - INFO - No channel from 127.0.0.1:56966
+2025-03-01 13:48:57,483 - ssh-honeypot - INFO - Connection from: 127.0.0.1:56969
+2025-03-01 13:48:58,001 - elastic_transport.transport - INFO - POST https://b2e7e5b202d84e938f7e48f40dd02ef2.us-central1.gcp.cloud.es.io:443/ssh-honeypot/_doc [status:201 duration:0.493s]
+2025-03-01 13:48:58,002 - ssh-honeypot - INFO - Log sent to Elasticsearch
+2025-03-01 13:48:58,064 - paramiko.transport - INFO - Connected (version 2.0, client paramiko_3.5.1)
+2025-03-01 13:48:58,070 - paramiko.transport - INFO - Auth rejected (publickey).
+2025-03-01 13:48:58,070 - paramiko.transport - INFO - Auth rejected (publickey).
+2025-03-01 13:48:58,071 - ssh-honeypot - INFO - Authentication attempt: 127.0.0.1 - invalid_user:invalid_pass
+2025-03-01 13:48:58,405 - elastic_transport.transport - INFO - POST https://b2e7e5b202d84e938f7e48f40dd02ef2.us-central1.gcp.cloud.es.io:443/ssh-honeypot/_doc [status:201 duration:0.325s]
+2025-03-01 13:48:58,405 - ssh-honeypot - INFO - Log sent to Elasticsearch
+2025-03-01 13:48:58,405 - paramiko.transport - INFO - Auth rejected (password).
+2025-03-01 13:48:58,407 - ssh-honeypot - INFO - No channel from 127.0.0.1:56969
+2025-03-01 13:48:58,847 - ssh-honeypot - INFO - Connection from: 127.0.0.1:56972
+2025-03-01 13:48:59,285 - elastic_transport.transport - INFO - POST https://b2e7e5b202d84e938f7e48f40dd02ef2.us-central1.gcp.cloud.es.io:443/ssh-honeypot/_doc [status:201 duration:0.417s]
+2025-03-01 13:48:59,286 - ssh-honeypot - INFO - Log sent to Elasticsearch
+2025-03-01 13:48:59,348 - paramiko.transport - INFO - Connected (version 2.0, client paramiko_3.5.1)
+2025-03-01 13:48:59,354 - paramiko.transport - INFO - Auth rejected (publickey).
+2025-03-01 13:48:59,354 - paramiko.transport - INFO - Auth rejected (publickey).
+2025-03-01 13:48:59,355 - ssh-honeypot - INFO - Authentication attempt: 127.0.0.1 - invalid_user:invalid_pass
+2025-03-01 13:48:59,671 - elastic_transport.transport - INFO - POST https://b2e7e5b202d84e938f7e48f40dd02ef2.us-central1.gcp.cloud.es.io:443/ssh-honeypot/_doc [status:201 duration:0.308s]
+2025-03-01 13:48:59,671 - ssh-honeypot - INFO - Log sent to Elasticsearch
+2025-03-01 13:48:59,671 - paramiko.transport - INFO - Auth rejected (password).
+2025-03-01 13:48:59,673 - ssh-honeypot - INFO - No channel from 127.0.0.1:56972
+2025-03-01 13:49:00,130 - ssh-honeypot - INFO - Connection from: 127.0.0.1:56975
+2025-03-01 13:49:00,482 - elastic_transport.transport - INFO - POST https://b2e7e5b202d84e938f7e48f40dd02ef2.us-central1.gcp.cloud.es.io:443/ssh-honeypot/_doc [status:201 duration:0.333s]
+2025-03-01 13:49:00,483 - ssh-honeypot - INFO - Log sent to Elasticsearch
+2025-03-01 13:49:00,546 - paramiko.transport - INFO - Connected (version 2.0, client paramiko_3.5.1)
+2025-03-01 13:49:00,553 - paramiko.transport - INFO - Auth rejected (publickey).
+2025-03-01 13:49:00,553 - paramiko.transport - INFO - Auth rejected (publickey).
+2025-03-01 13:49:00,554 - ssh-honeypot - INFO - Authentication attempt: 127.0.0.1 - invalid_user:invalid_pass
+2025-03-01 13:49:00,898 - elastic_transport.transport - INFO - POST https://b2e7e5b202d84e938f7e48f40dd02ef2.us-central1.gcp.cloud.es.io:443/ssh-honeypot/_doc [status:201 duration:0.334s]
+2025-03-01 13:49:00,898 - ssh-honeypot - INFO - Log sent to Elasticsearch
+2025-03-01 13:49:00,898 - paramiko.transport - INFO - Auth rejected (password).
+2025-03-01 13:49:00,900 - ssh-honeypot - INFO - No channel from 127.0.0.1:56975
+2025-03-01 13:49:01,008 - ssh-honeypot - INFO - Connection from: 127.0.0.1:56978
+2025-03-01 13:49:01,365 - elastic_transport.transport - INFO - POST https://b2e7e5b202d84e938f7e48f40dd02ef2.us-central1.gcp.cloud.es.io:443/ssh-honeypot/_doc [status:201 duration:0.335s]
+2025-03-01 13:49:01,365 - ssh-honeypot - INFO - Log sent to Elasticsearch
+2025-03-01 13:49:01,435 - paramiko.transport - INFO - Connected (version 2.0, client paramiko_3.5.1)
+2025-03-01 13:49:01,441 - paramiko.transport - INFO - Auth rejected (publickey).
+2025-03-01 13:49:01,441 - paramiko.transport - INFO - Auth rejected (publickey).
+2025-03-01 13:49:01,442 - ssh-honeypot - INFO - Authentication attempt: 127.0.0.1 - invalid_user:invalid_pass
+2025-03-01 13:49:01,770 - elastic_transport.transport - INFO - POST https://b2e7e5b202d84e938f7e48f40dd02ef2.us-central1.gcp.cloud.es.io:443/ssh-honeypot/_doc [status:201 duration:0.319s]
+2025-03-01 13:49:01,770 - ssh-honeypot - INFO - Log sent to Elasticsearch
+2025-03-01 13:49:01,770 - paramiko.transport - INFO - Auth rejected (password).
+2025-03-01 13:49:01,772 - ssh-honeypot - INFO - No channel from 127.0.0.1:56978
+2025-03-01 13:49:02,200 - ssh-honeypot - INFO - Connection from: 127.0.0.1:56981
+2025-03-01 13:49:02,544 - elastic_transport.transport - INFO - POST https://b2e7e5b202d84e938f7e48f40dd02ef2.us-central1.gcp.cloud.es.io:443/ssh-honeypot/_doc [status:201 duration:0.324s]
+2025-03-01 13:49:02,544 - ssh-honeypot - INFO - Log sent to Elasticsearch
+2025-03-01 13:49:02,606 - paramiko.transport - INFO - Connected (version 2.0, client paramiko_3.5.1)
+2025-03-01 13:49:02,613 - paramiko.transport - INFO - Auth rejected (publickey).
+2025-03-01 13:49:02,614 - paramiko.transport - INFO - Auth rejected (publickey).
+2025-03-01 13:49:02,614 - ssh-honeypot - INFO - Authentication attempt: 127.0.0.1 - invalid_user:invalid_pass
+2025-03-01 13:49:02,954 - elastic_transport.transport - INFO - POST https://b2e7e5b202d84e938f7e48f40dd02ef2.us-central1.gcp.cloud.es.io:443/ssh-honeypot/_doc [status:201 duration:0.330s]
+2025-03-01 13:49:02,954 - ssh-honeypot - INFO - Log sent to Elasticsearch
+2025-03-01 13:49:02,954 - paramiko.transport - INFO - Auth rejected (password).
+2025-03-01 13:49:02,956 - ssh-honeypot - INFO - No channel from 127.0.0.1:56981
+2025-03-01 13:49:03,341 - ssh-honeypot - INFO - Connection from: 127.0.0.1:56984
+2025-03-01 13:49:03,700 - elastic_transport.transport - INFO - POST https://b2e7e5b202d84e938f7e48f40dd02ef2.us-central1.gcp.cloud.es.io:443/ssh-honeypot/_doc [status:201 duration:0.339s]
+2025-03-01 13:49:03,700 - ssh-honeypot - INFO - Log sent to Elasticsearch
+2025-03-01 13:49:03,770 - paramiko.transport - INFO - Connected (version 2.0, client paramiko_3.5.1)
+2025-03-01 13:49:03,777 - paramiko.transport - INFO - Auth rejected (publickey).
+2025-03-01 13:49:03,777 - paramiko.transport - INFO - Auth rejected (publickey).
+2025-03-01 13:49:03,778 - ssh-honeypot - INFO - Authentication attempt: 127.0.0.1 - invalid_user:invalid_pass
+2025-03-01 13:49:04,109 - elastic_transport.transport - INFO - POST https://b2e7e5b202d84e938f7e48f40dd02ef2.us-central1.gcp.cloud.es.io:443/ssh-honeypot/_doc [status:201 duration:0.322s]
+2025-03-01 13:49:04,109 - ssh-honeypot - INFO - Log sent to Elasticsearch
+2025-03-01 13:49:04,110 - paramiko.transport - INFO - Auth rejected (password).
+2025-03-01 13:49:04,111 - ssh-honeypot - INFO - No channel from 127.0.0.1:56984
+2025-03-01 13:49:04,383 - ssh-honeypot - INFO - Connection from: 127.0.0.1:56987
+2025-03-01 13:49:04,741 - elastic_transport.transport - INFO - POST https://b2e7e5b202d84e938f7e48f40dd02ef2.us-central1.gcp.cloud.es.io:443/ssh-honeypot/_doc [status:201 duration:0.337s]
+2025-03-01 13:49:04,741 - ssh-honeypot - INFO - Log sent to Elasticsearch
+2025-03-01 13:49:04,813 - paramiko.transport - INFO - Connected (version 2.0, client paramiko_3.5.1)
+2025-03-01 13:49:04,819 - paramiko.transport - INFO - Auth rejected (publickey).
+2025-03-01 13:49:04,820 - paramiko.transport - INFO - Auth rejected (publickey).
+2025-03-01 13:49:04,820 - ssh-honeypot - INFO - Authentication attempt: 127.0.0.1 - invalid_user:invalid_pass
+2025-03-01 13:49:05,154 - elastic_transport.transport - INFO - POST https://b2e7e5b202d84e938f7e48f40dd02ef2.us-central1.gcp.cloud.es.io:443/ssh-honeypot/_doc [status:201 duration:0.325s]
+2025-03-01 13:49:05,155 - ssh-honeypot - INFO - Log sent to Elasticsearch
+2025-03-01 13:49:05,155 - paramiko.transport - INFO - Auth rejected (password).
+2025-03-01 13:49:05,157 - ssh-honeypot - INFO - No channel from 127.0.0.1:56987
+2025-03-01 13:49:05,635 - ssh-honeypot - INFO - Connection from: 127.0.0.1:56990
+2025-03-01 13:49:05,991 - elastic_transport.transport - INFO - POST https://b2e7e5b202d84e938f7e48f40dd02ef2.us-central1.gcp.cloud.es.io:443/ssh-honeypot/_doc [status:201 duration:0.338s]
+2025-03-01 13:49:05,992 - ssh-honeypot - INFO - Log sent to Elasticsearch
+2025-03-01 13:49:06,061 - paramiko.transport - INFO - Connected (version 2.0, client paramiko_3.5.1)
+2025-03-01 13:49:06,067 - paramiko.transport - INFO - Auth rejected (publickey).
+2025-03-01 13:49:06,068 - paramiko.transport - INFO - Auth rejected (publickey).
+2025-03-01 13:49:06,068 - ssh-honeypot - INFO - Authentication attempt: 127.0.0.1 - invalid_user:invalid_pass
+2025-03-01 13:49:06,406 - elastic_transport.transport - INFO - POST https://b2e7e5b202d84e938f7e48f40dd02ef2.us-central1.gcp.cloud.es.io:443/ssh-honeypot/_doc [status:201 duration:0.328s]
+2025-03-01 13:49:06,407 - ssh-honeypot - INFO - Log sent to Elasticsearch
+2025-03-01 13:49:06,407 - paramiko.transport - INFO - Auth rejected (password).
+2025-03-01 13:49:06,409 - ssh-honeypot - INFO - No channel from 127.0.0.1:56990
+2025-03-01 13:49:06,890 - ssh-honeypot - INFO - Connection from: 127.0.0.1:56993
+2025-03-01 13:49:07,248 - elastic_transport.transport - INFO - POST https://b2e7e5b202d84e938f7e48f40dd02ef2.us-central1.gcp.cloud.es.io:443/ssh-honeypot/_doc [status:201 duration:0.336s]
+2025-03-01 13:49:07,249 - ssh-honeypot - INFO - Log sent to Elasticsearch
+2025-03-01 13:49:07,319 - paramiko.transport - INFO - Connected (version 2.0, client paramiko_3.5.1)
+2025-03-01 13:49:07,325 - paramiko.transport - INFO - Auth rejected (publickey).
+2025-03-01 13:49:07,326 - paramiko.transport - INFO - Auth rejected (publickey).
+2025-03-01 13:49:07,326 - ssh-honeypot - INFO - Authentication attempt: 127.0.0.1 - invalid_user:invalid_pass
+2025-03-01 13:49:07,664 - elastic_transport.transport - INFO - POST https://b2e7e5b202d84e938f7e48f40dd02ef2.us-central1.gcp.cloud.es.io:443/ssh-honeypot/_doc [status:201 duration:0.325s]
+2025-03-01 13:49:07,665 - ssh-honeypot - INFO - Log sent to Elasticsearch
+2025-03-01 13:49:07,665 - paramiko.transport - INFO - Auth rejected (password).
+2025-03-01 13:49:07,667 - ssh-honeypot - INFO - No channel from 127.0.0.1:56993
+2025-03-01 13:49:07,817 - ssh-honeypot - INFO - Connection from: 127.0.0.1:56996
+2025-03-01 13:49:08,156 - elastic_transport.transport - INFO - POST https://b2e7e5b202d84e938f7e48f40dd02ef2.us-central1.gcp.cloud.es.io:443/ssh-honeypot/_doc [status:201 duration:0.318s]
+2025-03-01 13:49:08,156 - ssh-honeypot - INFO - Log sent to Elasticsearch
+2025-03-01 13:49:08,226 - paramiko.transport - INFO - Connected (version 2.0, client paramiko_3.5.1)
+2025-03-01 13:49:08,233 - paramiko.transport - INFO - Auth rejected (publickey).
+2025-03-01 13:49:08,233 - paramiko.transport - INFO - Auth rejected (publickey).
+2025-03-01 13:49:08,234 - ssh-honeypot - INFO - Authentication attempt: 127.0.0.1 - invalid_user:invalid_pass
+2025-03-01 13:49:08,571 - elastic_transport.transport - INFO - POST https://b2e7e5b202d84e938f7e48f40dd02ef2.us-central1.gcp.cloud.es.io:443/ssh-honeypot/_doc [status:201 duration:0.328s]
+2025-03-01 13:49:08,571 - ssh-honeypot - INFO - Log sent to Elasticsearch
+2025-03-01 13:49:08,572 - paramiko.transport - INFO - Auth rejected (password).
+2025-03-01 13:49:08,573 - ssh-honeypot - INFO - No channel from 127.0.0.1:56996
+2025-03-01 13:49:08,712 - ssh-honeypot - INFO - Connection from: 127.0.0.1:56999
+2025-03-01 13:49:09,071 - elastic_transport.transport - INFO - POST https://b2e7e5b202d84e938f7e48f40dd02ef2.us-central1.gcp.cloud.es.io:443/ssh-honeypot/_doc [status:201 duration:0.339s]
+2025-03-01 13:49:09,071 - ssh-honeypot - INFO - Log sent to Elasticsearch
+2025-03-01 13:49:09,136 - paramiko.transport - INFO - Connected (version 2.0, client paramiko_3.5.1)
+2025-03-01 13:49:09,142 - paramiko.transport - INFO - Auth rejected (publickey).
+2025-03-01 13:49:09,143 - paramiko.transport - INFO - Auth rejected (publickey).
+2025-03-01 13:49:09,143 - ssh-honeypot - INFO - Authentication attempt: 127.0.0.1 - invalid_user:invalid_pass
+2025-03-01 13:49:09,471 - elastic_transport.transport - INFO - POST https://b2e7e5b202d84e938f7e48f40dd02ef2.us-central1.gcp.cloud.es.io:443/ssh-honeypot/_doc [status:201 duration:0.318s]
+2025-03-01 13:49:09,472 - ssh-honeypot - INFO - Log sent to Elasticsearch
+2025-03-01 13:49:09,472 - paramiko.transport - INFO - Auth rejected (password).
+2025-03-01 13:49:09,473 - ssh-honeypot - INFO - No channel from 127.0.0.1:56999
+2025-03-01 13:49:09,667 - ssh-honeypot - INFO - Connection from: 127.0.0.1:57002
+2025-03-01 13:49:10,019 - elastic_transport.transport - INFO - POST https://b2e7e5b202d84e938f7e48f40dd02ef2.us-central1.gcp.cloud.es.io:443/ssh-honeypot/_doc [status:201 duration:0.331s]
+2025-03-01 13:49:10,019 - ssh-honeypot - INFO - Log sent to Elasticsearch
+2025-03-01 13:49:10,088 - paramiko.transport - INFO - Connected (version 2.0, client paramiko_3.5.1)
+2025-03-01 13:49:10,094 - paramiko.transport - INFO - Auth rejected (publickey).
+2025-03-01 13:49:10,094 - paramiko.transport - INFO - Auth rejected (publickey).
+2025-03-01 13:49:10,095 - ssh-honeypot - INFO - Authentication attempt: 127.0.0.1 - invalid_user:invalid_pass
+2025-03-01 13:49:10,427 - elastic_transport.transport - INFO - POST https://b2e7e5b202d84e938f7e48f40dd02ef2.us-central1.gcp.cloud.es.io:443/ssh-honeypot/_doc [status:201 duration:0.324s]
+2025-03-01 13:49:10,428 - ssh-honeypot - INFO - Log sent to Elasticsearch
+2025-03-01 13:49:10,428 - paramiko.transport - INFO - Auth rejected (password).
+2025-03-01 13:49:10,429 - ssh-honeypot - INFO - No channel from 127.0.0.1:57002
+2025-03-01 13:49:10,931 - ssh-honeypot - INFO - Connection from: 127.0.0.1:57005
+2025-03-01 13:49:11,286 - elastic_transport.transport - INFO - POST https://b2e7e5b202d84e938f7e48f40dd02ef2.us-central1.gcp.cloud.es.io:443/ssh-honeypot/_doc [status:201 duration:0.333s]
+2025-03-01 13:49:11,286 - ssh-honeypot - INFO - Log sent to Elasticsearch
+2025-03-01 13:49:11,349 - paramiko.transport - INFO - Connected (version 2.0, client paramiko_3.5.1)
+2025-03-01 13:49:11,355 - paramiko.transport - INFO - Auth rejected (publickey).
+2025-03-01 13:49:11,356 - paramiko.transport - INFO - Auth rejected (publickey).
+2025-03-01 13:49:11,356 - ssh-honeypot - INFO - Authentication attempt: 127.0.0.1 - invalid_user:invalid_pass
+2025-03-01 13:49:11,685 - elastic_transport.transport - INFO - POST https://b2e7e5b202d84e938f7e48f40dd02ef2.us-central1.gcp.cloud.es.io:443/ssh-honeypot/_doc [status:201 duration:0.319s]
+2025-03-01 13:49:11,685 - ssh-honeypot - INFO - Log sent to Elasticsearch
+2025-03-01 13:49:11,685 - paramiko.transport - INFO - Auth rejected (password).
+2025-03-01 13:49:11,686 - ssh-honeypot - INFO - No channel from 127.0.0.1:57005
+2025-03-01 13:49:11,823 - ssh-honeypot - INFO - Connection from: 127.0.0.1:57008
+2025-03-01 13:49:12,087 - elastic_transport.transport - INFO - POST https://b2e7e5b202d84e938f7e48f40dd02ef2.us-central1.gcp.cloud.es.io:443/ssh-honeypot/_doc [status:201 duration:0.240s]
+2025-03-01 13:49:12,087 - ssh-honeypot - INFO - Log sent to Elasticsearch
+2025-03-01 13:49:12,152 - paramiko.transport - INFO - Connected (version 2.0, client paramiko_3.5.1)
+2025-03-01 13:49:12,158 - paramiko.transport - INFO - Auth rejected (publickey).
+2025-03-01 13:49:12,159 - paramiko.transport - INFO - Auth rejected (publickey).
+2025-03-01 13:49:12,160 - ssh-honeypot - INFO - Authentication attempt: 127.0.0.1 - invalid_user:invalid_pass
+2025-03-01 13:49:12,482 - elastic_transport.transport - INFO - POST https://b2e7e5b202d84e938f7e48f40dd02ef2.us-central1.gcp.cloud.es.io:443/ssh-honeypot/_doc [status:201 duration:0.313s]
+2025-03-01 13:49:12,482 - ssh-honeypot - INFO - Log sent to Elasticsearch
+2025-03-01 13:49:12,482 - paramiko.transport - INFO - Auth rejected (password).
+2025-03-01 13:49:12,484 - ssh-honeypot - INFO - No channel from 127.0.0.1:57008
+2025-03-01 13:49:12,844 - ssh-honeypot - INFO - Connection from: 127.0.0.1:57011
+2025-03-01 13:49:13,190 - elastic_transport.transport - INFO - POST https://b2e7e5b202d84e938f7e48f40dd02ef2.us-central1.gcp.cloud.es.io:443/ssh-honeypot/_doc [status:201 duration:0.329s]
+2025-03-01 13:49:13,191 - ssh-honeypot - INFO - Log sent to Elasticsearch
+2025-03-01 13:49:13,254 - paramiko.transport - INFO - Connected (version 2.0, client paramiko_3.5.1)
+2025-03-01 13:49:13,260 - paramiko.transport - INFO - Auth rejected (publickey).
+2025-03-01 13:49:13,261 - paramiko.transport - INFO - Auth rejected (publickey).
+2025-03-01 13:49:13,261 - ssh-honeypot - INFO - Authentication attempt: 127.0.0.1 - invalid_user:invalid_pass
+2025-03-01 13:49:13,590 - elastic_transport.transport - INFO - POST https://b2e7e5b202d84e938f7e48f40dd02ef2.us-central1.gcp.cloud.es.io:443/ssh-honeypot/_doc [status:201 duration:0.320s]
+2025-03-01 13:49:13,590 - ssh-honeypot - INFO - Log sent to Elasticsearch
+2025-03-01 13:49:13,590 - paramiko.transport - INFO - Auth rejected (password).
+2025-03-01 13:49:13,592 - ssh-honeypot - INFO - No channel from 127.0.0.1:57011
+2025-03-01 13:49:13,891 - ssh-honeypot - INFO - Connection from: 127.0.0.1:57014
+2025-03-01 13:49:14,242 - elastic_transport.transport - INFO - POST https://b2e7e5b202d84e938f7e48f40dd02ef2.us-central1.gcp.cloud.es.io:443/ssh-honeypot/_doc [status:201 duration:0.327s]
+2025-03-01 13:49:14,242 - ssh-honeypot - INFO - Log sent to Elasticsearch
+2025-03-01 13:49:14,308 - paramiko.transport - INFO - Connected (version 2.0, client paramiko_3.5.1)
+2025-03-01 13:49:14,314 - paramiko.transport - INFO - Auth rejected (publickey).
+2025-03-01 13:49:14,315 - paramiko.transport - INFO - Auth rejected (publickey).
+2025-03-01 13:49:14,315 - ssh-honeypot - INFO - Authentication attempt: 127.0.0.1 - invalid_user:invalid_pass
+2025-03-01 13:49:14,644 - elastic_transport.transport - INFO - POST https://b2e7e5b202d84e938f7e48f40dd02ef2.us-central1.gcp.cloud.es.io:443/ssh-honeypot/_doc [status:201 duration:0.319s]
+2025-03-01 13:49:14,644 - ssh-honeypot - INFO - Log sent to Elasticsearch
+2025-03-01 13:49:14,644 - paramiko.transport - INFO - Auth rejected (password).
+2025-03-01 13:49:14,646 - ssh-honeypot - INFO - No channel from 127.0.0.1:57014
+2025-03-01 13:49:14,800 - ssh-honeypot - INFO - Connection from: 127.0.0.1:57017
+2025-03-01 13:49:15,171 - elastic_transport.transport - INFO - POST https://b2e7e5b202d84e938f7e48f40dd02ef2.us-central1.gcp.cloud.es.io:443/ssh-honeypot/_doc [status:201 duration:0.349s]
+2025-03-01 13:49:15,171 - ssh-honeypot - INFO - Log sent to Elasticsearch
+2025-03-01 13:49:15,241 - paramiko.transport - INFO - Connected (version 2.0, client paramiko_3.5.1)
+2025-03-01 13:49:15,247 - paramiko.transport - INFO - Auth rejected (publickey).
+2025-03-01 13:49:15,248 - paramiko.transport - INFO - Auth rejected (publickey).
+2025-03-01 13:49:15,248 - ssh-honeypot - INFO - Authentication attempt: 127.0.0.1 - invalid_user:invalid_pass
+2025-03-01 13:49:15,576 - elastic_transport.transport - INFO - POST https://b2e7e5b202d84e938f7e48f40dd02ef2.us-central1.gcp.cloud.es.io:443/ssh-honeypot/_doc [status:201 duration:0.319s]
+2025-03-01 13:49:15,576 - ssh-honeypot - INFO - Log sent to Elasticsearch
+2025-03-01 13:49:15,576 - paramiko.transport - INFO - Auth rejected (password).
+2025-03-01 13:49:15,578 - ssh-honeypot - INFO - No channel from 127.0.0.1:57017
+2025-03-01 13:49:15,691 - ssh-honeypot - INFO - Connection from: 127.0.0.1:57020
+2025-03-01 13:49:16,047 - elastic_transport.transport - INFO - POST https://b2e7e5b202d84e938f7e48f40dd02ef2.us-central1.gcp.cloud.es.io:443/ssh-honeypot/_doc [status:201 duration:0.338s]
+2025-03-01 13:49:16,048 - ssh-honeypot - INFO - Log sent to Elasticsearch
+2025-03-01 13:49:16,118 - paramiko.transport - INFO - Connected (version 2.0, client paramiko_3.5.1)
+2025-03-01 13:49:16,124 - paramiko.transport - INFO - Auth rejected (publickey).
+2025-03-01 13:49:16,124 - paramiko.transport - INFO - Auth rejected (publickey).
+2025-03-01 13:49:16,125 - ssh-honeypot - INFO - Authentication attempt: 127.0.0.1 - invalid_user:invalid_pass
+2025-03-01 13:49:16,462 - elastic_transport.transport - INFO - POST https://b2e7e5b202d84e938f7e48f40dd02ef2.us-central1.gcp.cloud.es.io:443/ssh-honeypot/_doc [status:201 duration:0.327s]
+2025-03-01 13:49:16,462 - ssh-honeypot - INFO - Log sent to Elasticsearch
+2025-03-01 13:49:16,462 - paramiko.transport - INFO - Auth rejected (password).
+2025-03-01 13:49:16,464 - ssh-honeypot - INFO - No channel from 127.0.0.1:57020
+2025-03-01 13:49:16,706 - ssh-honeypot - INFO - Connection from: 127.0.0.1:57023
+2025-03-01 13:49:17,050 - elastic_transport.transport - INFO - POST https://b2e7e5b202d84e938f7e48f40dd02ef2.us-central1.gcp.cloud.es.io:443/ssh-honeypot/_doc [status:201 duration:0.322s]
+2025-03-01 13:49:17,051 - ssh-honeypot - INFO - Log sent to Elasticsearch
+2025-03-01 13:49:17,119 - paramiko.transport - INFO - Connected (version 2.0, client paramiko_3.5.1)
+2025-03-01 13:49:17,125 - paramiko.transport - INFO - Auth rejected (publickey).
+2025-03-01 13:49:17,126 - paramiko.transport - INFO - Auth rejected (publickey).
+2025-03-01 13:49:17,126 - ssh-honeypot - INFO - Authentication attempt: 127.0.0.1 - invalid_user:invalid_pass
+2025-03-01 13:49:17,512 - elastic_transport.transport - INFO - POST https://b2e7e5b202d84e938f7e48f40dd02ef2.us-central1.gcp.cloud.es.io:443/ssh-honeypot/_doc [status:201 duration:0.377s]
+2025-03-01 13:49:17,513 - ssh-honeypot - INFO - Log sent to Elasticsearch
+2025-03-01 13:49:17,513 - paramiko.transport - INFO - Auth rejected (password).
+2025-03-01 13:49:17,515 - ssh-honeypot - INFO - No channel from 127.0.0.1:57023
+2025-03-01 13:49:17,709 - ssh-honeypot - INFO - Connection from: 127.0.0.1:57026
+2025-03-01 13:49:18,075 - elastic_transport.transport - INFO - POST https://b2e7e5b202d84e938f7e48f40dd02ef2.us-central1.gcp.cloud.es.io:443/ssh-honeypot/_doc [status:201 duration:0.341s]
+2025-03-01 13:49:18,076 - ssh-honeypot - INFO - Log sent to Elasticsearch
+2025-03-01 13:49:18,138 - paramiko.transport - INFO - Connected (version 2.0, client paramiko_3.5.1)
+2025-03-01 13:49:18,144 - paramiko.transport - INFO - Auth rejected (publickey).
+2025-03-01 13:49:18,144 - paramiko.transport - INFO - Auth rejected (publickey).
+2025-03-01 13:49:18,145 - ssh-honeypot - INFO - Authentication attempt: 127.0.0.1 - invalid_user:invalid_pass
+2025-03-01 13:49:18,486 - elastic_transport.transport - INFO - POST https://b2e7e5b202d84e938f7e48f40dd02ef2.us-central1.gcp.cloud.es.io:443/ssh-honeypot/_doc [status:201 duration:0.333s]
+2025-03-01 13:49:18,487 - ssh-honeypot - INFO - Log sent to Elasticsearch
+2025-03-01 13:49:18,487 - paramiko.transport - INFO - Auth rejected (password).
+2025-03-01 13:49:18,488 - ssh-honeypot - INFO - No channel from 127.0.0.1:57026
+2025-03-01 13:49:18,991 - ssh-honeypot - INFO - Connection from: 127.0.0.1:57029
+2025-03-01 13:49:19,331 - elastic_transport.transport - INFO - POST https://b2e7e5b202d84e938f7e48f40dd02ef2.us-central1.gcp.cloud.es.io:443/ssh-honeypot/_doc [status:201 duration:0.316s]
+2025-03-01 13:49:19,332 - ssh-honeypot - INFO - Log sent to Elasticsearch
+2025-03-01 13:49:19,402 - paramiko.transport - INFO - Connected (version 2.0, client paramiko_3.5.1)
+2025-03-01 13:49:19,408 - paramiko.transport - INFO - Auth rejected (publickey).
+2025-03-01 13:49:19,409 - paramiko.transport - INFO - Auth rejected (publickey).
+2025-03-01 13:49:19,409 - ssh-honeypot - INFO - Authentication attempt: 127.0.0.1 - invalid_user:invalid_pass
+2025-03-01 13:49:19,747 - elastic_transport.transport - INFO - POST https://b2e7e5b202d84e938f7e48f40dd02ef2.us-central1.gcp.cloud.es.io:443/ssh-honeypot/_doc [status:201 duration:0.328s]
+2025-03-01 13:49:19,747 - ssh-honeypot - INFO - Log sent to Elasticsearch
+2025-03-01 13:49:19,747 - paramiko.transport - INFO - Auth rejected (password).
+2025-03-01 13:49:19,749 - ssh-honeypot - INFO - No channel from 127.0.0.1:57029
+2025-03-01 13:49:20,131 - ssh-honeypot - INFO - Connection from: 127.0.0.1:57032
+2025-03-01 13:49:20,490 - elastic_transport.transport - INFO - POST https://b2e7e5b202d84e938f7e48f40dd02ef2.us-central1.gcp.cloud.es.io:443/ssh-honeypot/_doc [status:201 duration:0.337s]
+2025-03-01 13:49:20,490 - ssh-honeypot - INFO - Log sent to Elasticsearch
+2025-03-01 13:49:20,562 - paramiko.transport - INFO - Connected (version 2.0, client paramiko_3.5.1)
+2025-03-01 13:49:20,568 - paramiko.transport - INFO - Auth rejected (publickey).
+2025-03-01 13:49:20,569 - paramiko.transport - INFO - Auth rejected (publickey).
+2025-03-01 13:49:20,569 - ssh-honeypot - INFO - Authentication attempt: 127.0.0.1 - invalid_user:invalid_pass
+2025-03-01 13:49:20,889 - elastic_transport.transport - INFO - POST https://b2e7e5b202d84e938f7e48f40dd02ef2.us-central1.gcp.cloud.es.io:443/ssh-honeypot/_doc [status:201 duration:0.311s]
+2025-03-01 13:49:20,889 - ssh-honeypot - INFO - Log sent to Elasticsearch
+2025-03-01 13:49:20,889 - paramiko.transport - INFO - Auth rejected (password).
+2025-03-01 13:49:20,891 - ssh-honeypot - INFO - No channel from 127.0.0.1:57032
+2025-03-01 13:49:21,199 - ssh-honeypot - INFO - Connection from: 127.0.0.1:57035
+2025-03-01 13:49:21,589 - elastic_transport.transport - INFO - POST https://b2e7e5b202d84e938f7e48f40dd02ef2.us-central1.gcp.cloud.es.io:443/ssh-honeypot/_doc [status:201 duration:0.368s]
+2025-03-01 13:49:21,589 - ssh-honeypot - INFO - Log sent to Elasticsearch
+2025-03-01 13:49:21,658 - paramiko.transport - INFO - Connected (version 2.0, client paramiko_3.5.1)
+2025-03-01 13:49:21,664 - paramiko.transport - INFO - Auth rejected (publickey).
+2025-03-01 13:49:21,664 - paramiko.transport - INFO - Auth rejected (publickey).
+2025-03-01 13:49:21,665 - ssh-honeypot - INFO - Authentication attempt: 127.0.0.1 - invalid_user:invalid_pass
+2025-03-01 13:49:22,001 - elastic_transport.transport - INFO - POST https://b2e7e5b202d84e938f7e48f40dd02ef2.us-central1.gcp.cloud.es.io:443/ssh-honeypot/_doc [status:201 duration:0.326s]
+2025-03-01 13:49:22,001 - ssh-honeypot - INFO - Log sent to Elasticsearch
+2025-03-01 13:49:22,001 - paramiko.transport - INFO - Auth rejected (password).
+2025-03-01 13:49:22,003 - ssh-honeypot - INFO - No channel from 127.0.0.1:57035
+2025-03-01 13:49:22,110 - ssh-honeypot - INFO - Connection from: 127.0.0.1:57038
+2025-03-01 13:49:22,458 - elastic_transport.transport - INFO - POST https://b2e7e5b202d84e938f7e48f40dd02ef2.us-central1.gcp.cloud.es.io:443/ssh-honeypot/_doc [status:201 duration:0.327s]
+2025-03-01 13:49:22,458 - ssh-honeypot - INFO - Log sent to Elasticsearch
+2025-03-01 13:49:22,529 - paramiko.transport - INFO - Connected (version 2.0, client paramiko_3.5.1)
+2025-03-01 13:49:22,535 - paramiko.transport - INFO - Auth rejected (publickey).
+2025-03-01 13:49:22,535 - paramiko.transport - INFO - Auth rejected (publickey).
+2025-03-01 13:49:22,536 - ssh-honeypot - INFO - Authentication attempt: 127.0.0.1 - invalid_user:invalid_pass
+2025-03-01 13:49:22,869 - elastic_transport.transport - INFO - POST https://b2e7e5b202d84e938f7e48f40dd02ef2.us-central1.gcp.cloud.es.io:443/ssh-honeypot/_doc [status:201 duration:0.320s]
+2025-03-01 13:49:22,869 - ssh-honeypot - INFO - Log sent to Elasticsearch
+2025-03-01 13:49:22,870 - paramiko.transport - INFO - Auth rejected (password).
+2025-03-01 13:49:22,871 - ssh-honeypot - INFO - No channel from 127.0.0.1:57038
+2025-03-01 13:49:23,279 - ssh-honeypot - INFO - Connection from: 127.0.0.1:57041
+2025-03-01 13:49:23,625 - elastic_transport.transport - INFO - POST https://b2e7e5b202d84e938f7e48f40dd02ef2.us-central1.gcp.cloud.es.io:443/ssh-honeypot/_doc [status:201 duration:0.326s]
+2025-03-01 13:49:23,626 - ssh-honeypot - INFO - Log sent to Elasticsearch
+2025-03-01 13:49:23,685 - paramiko.transport - INFO - Connected (version 2.0, client paramiko_3.5.1)
+2025-03-01 13:49:23,691 - paramiko.transport - INFO - Auth rejected (publickey).
+2025-03-01 13:49:23,692 - paramiko.transport - INFO - Auth rejected (publickey).
+2025-03-01 13:49:23,692 - ssh-honeypot - INFO - Authentication attempt: 127.0.0.1 - invalid_user:invalid_pass
+2025-03-01 13:49:24,020 - elastic_transport.transport - INFO - POST https://b2e7e5b202d84e938f7e48f40dd02ef2.us-central1.gcp.cloud.es.io:443/ssh-honeypot/_doc [status:201 duration:0.318s]
+2025-03-01 13:49:24,020 - ssh-honeypot - INFO - Log sent to Elasticsearch
+2025-03-01 13:49:24,020 - paramiko.transport - INFO - Auth rejected (password).
+2025-03-01 13:49:24,022 - ssh-honeypot - INFO - No channel from 127.0.0.1:57041
+2025-03-01 13:49:24,349 - ssh-honeypot - INFO - Connection from: 127.0.0.1:57044
+2025-03-01 13:49:24,706 - elastic_transport.transport - INFO - POST https://b2e7e5b202d84e938f7e48f40dd02ef2.us-central1.gcp.cloud.es.io:443/ssh-honeypot/_doc [status:201 duration:0.333s]
+2025-03-01 13:49:24,706 - ssh-honeypot - INFO - Log sent to Elasticsearch
+2025-03-01 13:49:24,776 - paramiko.transport - INFO - Connected (version 2.0, client paramiko_3.5.1)
+2025-03-01 13:49:24,782 - paramiko.transport - INFO - Auth rejected (publickey).
+2025-03-01 13:49:24,783 - paramiko.transport - INFO - Auth rejected (publickey).
+2025-03-01 13:49:24,783 - ssh-honeypot - INFO - Authentication attempt: 127.0.0.1 - invalid_user:invalid_pass
+2025-03-01 13:49:25,102 - elastic_transport.transport - INFO - POST https://b2e7e5b202d84e938f7e48f40dd02ef2.us-central1.gcp.cloud.es.io:443/ssh-honeypot/_doc [status:201 duration:0.310s]
+2025-03-01 13:49:25,102 - ssh-honeypot - INFO - Log sent to Elasticsearch
+2025-03-01 13:49:25,103 - paramiko.transport - INFO - Auth rejected (password).
+2025-03-01 13:49:25,104 - ssh-honeypot - INFO - No channel from 127.0.0.1:57044
+2025-03-01 13:49:25,303 - ssh-honeypot - INFO - Connection from: 127.0.0.1:57047
+2025-03-01 13:49:25,703 - elastic_transport.transport - INFO - POST https://b2e7e5b202d84e938f7e48f40dd02ef2.us-central1.gcp.cloud.es.io:443/ssh-honeypot/_doc [status:201 duration:0.381s]
+2025-03-01 13:49:25,704 - ssh-honeypot - INFO - Log sent to Elasticsearch
+2025-03-01 13:49:25,775 - paramiko.transport - INFO - Connected (version 2.0, client paramiko_3.5.1)
+2025-03-01 13:49:25,781 - paramiko.transport - INFO - Auth rejected (publickey).
+2025-03-01 13:49:25,781 - paramiko.transport - INFO - Auth rejected (publickey).
+2025-03-01 13:49:25,782 - ssh-honeypot - INFO - Authentication attempt: 127.0.0.1 - invalid_user:invalid_pass
+2025-03-01 13:49:26,108 - elastic_transport.transport - INFO - POST https://b2e7e5b202d84e938f7e48f40dd02ef2.us-central1.gcp.cloud.es.io:443/ssh-honeypot/_doc [status:201 duration:0.317s]
+2025-03-01 13:49:26,108 - ssh-honeypot - INFO - Log sent to Elasticsearch
+2025-03-01 13:49:26,108 - paramiko.transport - INFO - Auth rejected (password).
+2025-03-01 13:49:26,110 - ssh-honeypot - INFO - No channel from 127.0.0.1:57047
